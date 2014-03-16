@@ -1,3 +1,6 @@
+# DSC Tournament
+Web-based interface for the results of the DARPA Spectrum Challenge
+
 ## Auto-commiting changes
 
 On a linux server, use the following line for triggering a git commit 
