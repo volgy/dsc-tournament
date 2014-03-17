@@ -8,17 +8,31 @@
 
         <style>
         </style>
-
-        <script src="snap.svg-min.js"></script>
     </head>
     <body>
+        <h1 style="font-family: 'Roboto Condensed'; font-weight: 700;">DARPA Spectrum Challenge - Final Tournament</h1>
+
+        <table border="0">
+            <tr>
+                <td>
+                    <h2 style="font-family: 'Roboto Condensed'; font-weight: 400;">Competitive</h1>
+                    <object type="image/svg+xml" width="800" height="600" data="comp3.svg"><span/></object>
+                </td>
+                <td rowspan="2" data-twttr-id="twttr-sandbox-0" style="vertical-align: top;width: 400px;">
+                    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/volgy" data-widget-id="445600969053593600">Tweets by @volgy</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2 style="font-family: 'Roboto Condensed'; font-weight: 400;">Cooperative</h1>
+                    <object type="image/svg+xml" width="800" height="600" data="comp.svg"><span/></object>
+                </td>
+            </tr>
+        </table>
         
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         <script>
-        var s = Snap(800, 600);
-        Snap.load("comp.svg", function (frag) {
-            s.add(frag);
-            m = Snap.select("#group_a_score1");
-        });
+        m = document.getElementById("group_a_score1");
         </script>
     </body>
 </html>
