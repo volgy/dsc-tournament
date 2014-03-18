@@ -6,7 +6,7 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    version="1.1"
-   id="Comp"
+   id="comp-svg"
    x="0px"
    y="0px"
    width="800px"
@@ -22,12 +22,27 @@
 
 <style type="text/css">
 
-   .stage{font-family:'Roboto Condensed'; font-weight: 400; font-size:16px;}
-	.group{font-family:'Roboto Condensed'; font-weight: 700; fill:#FFFFFF; font-size:14px;}
-   .score{font-family:'Roboto Condensed';font-size:14px; font-weight:400; text-align:end; text-anchor:end;}
-   .team{font-family:'Roboto Condensed';font-size:14px; font-weight:400;}
+    .stage{font-family:'Roboto Condensed'; font-weight: 400; font-size:16px;}
+    .group{font-family:'Roboto Condensed'; font-weight: 700; fill:#FFFFFF; font-size:14px;}
+    .group-box{stroke:#000000; fill:#000000;}
+    .progress{font-family:'Roboto Condensed';font-size:14px; font-weight:300;}
+    .score{font-family:'Roboto Condensed';font-size:14px; font-weight:400; text-align:end; text-anchor:end;}
+    .team{font-family:'Roboto Condensed';font-size:14px; font-weight:400;}
+    .team-box-preliminaries{fill:#ffffb3;stroke:#000000;stroke-width:2;}
+    .score-box-preliminaries{fill:#ffff00;stroke:#000000;stroke-width:2;}
+    .team-box-presemifinals{fill:#ffebcc;stroke:#000000;stroke-width:2;}
+    .score-box-presemifinals{fill:#ff9900;stroke:#000000;stroke-width:2;}
+    .team-box-semifinals{fill:#ffe0cc;stroke:#000000;stroke-width:2;}
+    .score-box-semifinals{fill:#ff6600;stroke:#000000;stroke-width:2;}
+    .team-box-finals{fill:#ffd6cc;stroke:#000000;stroke-width:2;}
+    .score-box-finals{fill:#ff3300;stroke:#000000;stroke-width:2;}
+    .flow-solid{fill:none;stroke:#000000;stroke-width:2;}
+    
 
-	.st1{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:1.8475,1.8475;}
+
+
+
+
 	.st2{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:1.9748,1.9748;}
 	.st3{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:1.9827,1.9827;}
 	.st4{fill:#FF6600;stroke:#330000;stroke-width:2;stroke-miterlimit:10;}
@@ -49,1094 +64,304 @@
 	.st23{fill:#FFFF00;stroke:#330000;stroke-width:2;stroke-miterlimit:10;}
 </style>
 
-<text
-   transform="matrix(1 0 0 1 68.1997 20.8672)"
-   class="stage">Perliminaries</text>
-
-<text
-   transform="matrix(1 0 0 1 296.6211 20.8672)"
-   class="stage">Pre-Seminfinals</text>
-
-<text
-   transform="matrix(1 0 0 1 521.4805 20.8672)"
-   class="stage">Semifinals</text>
-
-<text
-   transform="matrix(1 0 0 1 676.3672 20.8672)"
-   class="stage">Finals</text>
-
-
-<rect
-   style="fill:#ffffb3;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3542"
-   height="22.693001"
-   width="116.999"
-   class="st13"
-   y="526.92102"
-   x="30.146" /><text
-   class="team"
-   id="text3544"
-   x="38.251999"
-   y="542.64447">Efficient Spectrum</text>
-
-
-<rect
-   style="fill:#ffff00;stroke:#330000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3546"
-   height="22.693001"
-   width="51.030998"
-   class="st23"
-   y="526.92102"
-   x="147.146" /><text
-   y="542.07422"
-   x="192.14009"
-   id="text3548"
-   class="score">0</text>
-
-
-<rect
-   style="fill:#ffffb3;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3550"
-   height="22.691999"
-   width="116.999"
-   class="st13"
-   y="549.61401"
-   x="30.146" /><text
-   class="team"
-   id="text3552"
-   x="38.251999"
-   y="565.33789">Efficient Spectrum</text>
-
-
-<rect
-   style="fill:#ffff00;stroke:#330000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3554"
-   height="22.691999"
-   width="51.030998"
-   class="st23"
-   y="549.61401"
-   x="147.146" /><text
-   y="564.76758"
-   x="192.14009"
-   id="text3556"
-   class="score">0</text>
-
-
-<rect
-   style="fill:#ffffb3;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3558"
-   height="22.691999"
-   width="116.999"
-   class="st13"
-   y="572.30798"
-   x="30.146" /><text
-   class="team"
-   id="text3560"
-   x="38.251999"
-   y="588.03027">Efficient Spectrum</text>
-
-
-<rect
-   style="fill:#ffff00;stroke:#330000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3562"
-   height="22.691999"
-   width="51.030998"
-   class="st23"
-   y="572.30798"
-   x="147.146" /><text
-   y="587.46002"
-   x="192.14009"
-   id="text3564"
-   class="score">0</text>
-
-
-<rect
-   style="stroke:#000000;stroke-miterlimit:10"
-   id="rect3566"
-   height="22.174"
-   width="77.472"
-   y="504.74701"
-   x="30.146" /><text
-   id="text3568"
-   class="group"
-   x="38.251999"
-   y="520.43073">GROUP F</text>
-
-
-<text
-   class="team"
-   id="group_f_progress"
-   class="score"
-   x="119.252"
-   y="519.43073">0 / 4</text>
-
-
-
-<rect
-   style="fill:#ffffb3;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3574"
-   height="22.691999"
-   width="116.999"
-   class="st13"
-   y="431.74399"
-   x="30.146" /><text
-   class="team"
-   id="text3576"
-   class="score"
-   x="38.251999"
-   y="447.4678">Efficient Spectrum</text>
-
-
-<rect
-   style="fill:#ffff00;stroke:#330000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3578"
-   height="22.691999"
-   width="51.030998"
-   class="st23"
-   y="431.74399"
-   x="147.146" /><text
-   y="446.89749"
-   x="192.14009"
-   id="text3580"
-   class="score">0</text>
-
-
-<rect
-   style="fill:#ffffb3;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3582"
-   height="22.693001"
-   width="116.999"
-   class="st13"
-   y="454.43799"
-   x="30.146" /><text
-   class="team"
-   id="text3584"
-   class="score"
-   x="38.251999"
-   y="470.16019">Efficient Spectrum</text>
-
-
-<rect
-   style="fill:#ffff00;stroke:#330000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3586"
-   height="22.693001"
-   width="51.030998"
-   class="st23"
-   y="454.43799"
-   x="147.146" /><text
-   y="469.58981"
-   x="192.14009"
-   id="text3588"
-   class="score">0</text>
-
-
-<rect
-   style="fill:#ffffb3;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3590"
-   height="22.693001"
-   width="116.999"
-   class="st13"
-   y="477.13101"
-   x="30.146" /><text
-   class="team"
-   id="text3592"
-   class="score"
-   x="38.251999"
-   y="492.85349">Efficient Spectrum</text>
-
-
-<rect
-   style="fill:#ffff00;stroke:#330000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3594"
-   height="22.693001"
-   width="51.030998"
-   class="st23"
-   y="477.13101"
-   x="147.146" /><text
-   y="492.2832"
-   x="192.14009"
-   id="text3596"
-   class="score">0</text>
-
-
-<rect
-   style="stroke:#000000;stroke-miterlimit:10"
-   id="rect3598"
-   height="22.174"
-   width="77.472"
-   class="st18"
-   y="409.57001"
-   x="30.146" /><text
-   style="font-size:14px;font-weight:700;fill:#ffffff;font-family:Roboto Condensed"
-   id="text3600"
-   class="score"
-   x="38.251999"
-   y="425.25391">GROUP E</text>
-
-
-<text
-   class="team"
-   id="group_e_progress"
-   class="score"
-   x="119.252"
-   y="424.25391">0 / 4</text>
-
-
-
-<rect
-   style="fill:#ffffb3;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3606"
-   height="22.691999"
-   width="116.999"
-   class="st13"
-   y="336.569"
-   x="30.146" /><text
-   class="team"
-   id="text3608"
-   class="score"
-   x="38.251999"
-   y="352.293">Efficient Spectrum</text>
-
-
-<rect
-   style="fill:#ffff00;stroke:#330000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3610"
-   height="22.691999"
-   width="51.030998"
-   class="st23"
-   y="336.569"
-   x="147.146" /><text
-   y="351.72269"
-   x="192.14009"
-   id="text3612"
-   class="score">0</text>
-
-
-<rect
-   style="fill:#ffffb3;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3614"
-   height="22.693001"
-   width="116.999"
-   class="st13"
-   y="359.263"
-   x="30.146" /><text
-   class="team"
-   id="text3616"
-   class="score"
-   x="38.251999"
-   y="374.9863">Efficient Spectrum</text>
-
-
-<rect
-   style="fill:#ffff00;stroke:#330000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3618"
-   height="22.693001"
-   width="51.030998"
-   class="st23"
-   y="359.263"
-   x="147.146" /><text
-   y="374.41599"
-   x="192.14009"
-   id="text3620"
-   class="score">0</text>
-
-
-<rect
-   style="fill:#ffffb3;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3622"
-   height="22.691999"
-   width="116.999"
-   class="st13"
-   y="381.95599"
-   x="30.146" /><text
-   class="team"
-   id="text3624"
-   class="score"
-   x="38.251999"
-   y="397.67871">Efficient Spectrum</text>
-
-
-<rect
-   style="fill:#ffff00;stroke:#330000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3626"
-   height="22.691999"
-   width="51.030998"
-   class="st23"
-   y="381.95599"
-   x="147.146" /><text
-   y="397.1084"
-   x="192.14009"
-   id="text3628"
-   class="score">0</text>
-
-
-<rect
-   style="stroke:#000000;stroke-miterlimit:10"
-   id="rect3630"
-   height="22.174"
-   width="77.472"
-   class="st18"
-   y="314.396"
-   x="30.146" /><text
-   style="font-size:14px;font-weight:700;fill:#ffffff;font-family:Roboto Condensed"
-   id="text3632"
-   class="score"
-   x="38.251999"
-   y="330.0791">GROUP D</text>
-
-
-<text
-   class="team"
-   id="group_d_progress"
-   class="score"
-   x="119.252"
-   y="329.0791">0 / 4</text>
-
-
-
-<rect
-   style="fill:#ffffb3;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3638"
-   height="22.693001"
-   width="116.999"
-   class="st13"
-   y="241.394"
-   x="30.146" /><text
-   class="team"
-   id="text3640"
-   class="score"
-   x="38.251999"
-   y="257.11719">Efficient Spectrum</text>
-
-
-<rect
-   style="fill:#ffff00;stroke:#330000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3642"
-   height="22.693001"
-   width="51.030998"
-   class="st23"
-   y="241.394"
-   x="147.146" /><text
-   y="256.54691"
-   x="192.14009"
-   id="group_c_score1"
-   class="score">0</text>
-
-
-<rect
-   style="fill:#ffffb3;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3646"
-   height="22.693001"
-   width="116.999"
-   class="st13"
-   y="264.08701"
-   x="30.146" /><text
-   class="team"
-   id="text3648"
-   class="score"
-   x="38.251999"
-   y="279.81049">Efficient Spectrum</text>
-
-
-<rect
-   style="fill:#ffff00;stroke:#330000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3650"
-   height="22.693001"
-   width="51.030998"
-   class="st23"
-   y="264.08701"
-   x="147.146" /><text
-   y="279.23929"
-   x="192.14009"
-   id="text3652"
-   class="score">0</text>
-
-
-<rect
-   style="fill:#ffffb3;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3654"
-   height="22.691"
-   width="116.999"
-   class="st13"
-   y="286.78"
-   x="30.146" /><text
-   class="team"
-   id="text3656"
-   class="score"
-   x="38.251999"
-   y="302.5029">Efficient Spectrum</text>
-
-
-<rect
-   style="fill:#ffff00;stroke:#330000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3658"
-   height="22.691"
-   width="51.030998"
-   class="st23"
-   y="286.78"
-   x="147.146" /><text
-   y="301.93259"
-   x="192.14009"
-   id="text3660"
-   class="score">0</text>
-
-
-<rect
-   style="stroke:#000000;stroke-miterlimit:10"
-   id="rect3662"
-   height="22.174"
-   width="77.472"
-   class="st18"
-   y="219.21899"
-   x="30.146" /><text
-   style="font-size:14px;font-weight:700;fill:#ffffff;font-family:Roboto Condensed"
-   id="text3664"
-   class="score"
-   x="38.251999"
-   y="234.90331">GROUP C</text>
-
-
-<text
-   class="team"
-   id="group_c_progress"
-   class="score"
-   x="119.252"
-   y="233.90331">0 / 4</text>
-
-
-
-
-
-
-
-
-
-
-
-<rect
-   style="fill:#ffffb3;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3695"
-   height="22.693001"
-   width="116.999"
-   class="st13"
-   y="146.217"
-   x="30.146" /><text
-   class="team"
-   id="text3697"
-   class="score"
-   x="38.251999"
-   y="161.9404">Efficient Spectrum</text>
-<rect
-   style="fill:#ffff00;stroke:#330000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3699"
-   height="22.693001"
-   width="51.030998"
-   class="st23"
-   y="146.217"
-   x="147.146" /><text
-   y="161.3701"
-   x="192.14009"
-   id="group_b_score1"
-   class="score">0</text>
-<rect
-   style="fill:#ffffb3;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3703"
-   height="22.693001"
-   width="116.999"
-   class="st13"
-   y="168.91"
-   x="30.146" /><text
-   class="team"
-   id="text3705"
-   class="score"
-   x="38.251999"
-   y="184.6328">Efficient Spectrum</text>
-<rect
-   style="fill:#ffff00;stroke:#330000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3707"
-   height="22.693001"
-   width="51.030998"
-   class="st23"
-   y="168.91"
-   x="147.146" /><text
-   y="184.0625"
-   x="192.14009"
-   id="group_b_score2"
-   class="score">0</text>
-<rect
-   style="fill:#ffffb3;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3711"
-   height="22.691999"
-   width="116.999"
-   class="st13"
-   y="191.604"
-   x="30.146" /><text
-   class="team"
-   id="text3713"
-   class="score"
-   x="38.251999"
-   y="207.3262">Efficient Spectrum</text>
-<rect
-   style="fill:#ffff00;stroke:#330000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3715"
-   height="22.691999"
-   width="51.030998"
-   class="st23"
-   y="191.604"
-   x="147.146" /><text
-   y="206.75591"
-   x="192.14009"
-   id="group_b_score3"
-   class="score">0</text>
-<rect
-   style="stroke:#000000;stroke-miterlimit:10"
-   id="rect3719"
-   height="22.174"
-   width="77.472"
-   class="st18"
-   y="124.043"
-   x="30.146" /><text
-   style="font-size:14px;font-weight:700;fill:#ffffff;font-family:Roboto Condensed"
-   id="text3721"
-   class="score"
-   x="38.251999"
-   y="139.72659">GROUP B</text>
-<text
-   class="team"
-   id="group_b_progress"
-   class="score"
-   x="119.252"
-   y="138.72659">0 / 4</text>
-
-
-<rect
-   style="fill:#ffebcc;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3727"
-   height="22.693001"
-   width="117"
-   class="st22"
-   y="191.34399"
-   x="261.828" /><text
-   class="team"
-   id="text3729"
-   class="score"
-   x="269.93359"
-   y="207.06641">Efficient Spectrum</text>
-
-
-<rect
-   style="fill:#ff9900;stroke:#330000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3731"
-   height="22.693001"
-   width="51.030998"
-   class="st12"
-   y="191.34399"
-   x="378.828" /><text
-   y="206.49609"
-   x="423.82178"
-   id="text3733"
-   class="score">0</text>
-
-
-<rect
-   style="fill:#ffebcc;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3735"
-   height="22.693001"
-   width="117"
-   class="st22"
-   y="214.037"
-   x="261.828" /><text
-   class="team"
-   id="text3737"
-   class="score"
-   x="269.93359"
-   y="229.7598">Efficient Spectrum</text>
-
-
-<rect
-   style="fill:#ff9900;stroke:#330000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3739"
-   height="22.693001"
-   width="51.030998"
-   class="st12"
-   y="214.037"
-   x="378.828" /><text
-   y="229.1895"
-   x="423.82178"
-   id="text3741"
-   class="score">0</text>
-
-
-<rect
-   style="fill:#ffebcc;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3743"
-   height="22.691999"
-   width="117"
-   class="st22"
-   y="236.729"
-   x="261.828" /><text
-   class="team"
-   id="text3745"
-   class="score"
-   x="269.93359"
-   y="252.4521">Efficient Spectrum</text>
-
-
-<rect
-   style="fill:#ff9900;stroke:#330000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3747"
-   height="22.691999"
-   width="51.030998"
-   class="st12"
-   y="236.729"
-   x="378.828" /><text
-   y="251.88181"
-   x="423.82178"
-   id="text3749"
-   class="score">0</text>
-
-
-<rect
-   style="stroke:#000000;stroke-miterlimit:10"
-   id="rect3751"
-   height="22.174"
-   width="77.473"
-   class="st18"
-   y="169.16901"
-   x="261.828" /><text
-   style="font-size:14px;font-weight:700;fill:#ffffff;font-family:Roboto Condensed"
-   id="text3753"
-   class="score"
-   x="263.93359"
-   y="184.85249">GROUP ABC2</text>
-
-
-<text
-   class="team"
-   id="text3755"
-   class="score"
-   x="350.93359"
-   y="183.85249">0 / 4</text>
-
-
-
-<rect
-   style="fill:#ffebcc;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3759"
-   height="22.693001"
-   width="117"
-   class="st22"
-   y="392.79099"
-   x="260.146" /><text
-   class="team"
-   id="text3761"
-   class="score"
-   x="268.25201"
-   y="408.5137">Efficient Spectrum</text>
-
-
-<rect
-   style="fill:#ff9900;stroke:#330000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3763"
-   height="22.693001"
-   width="51.030998"
-   class="st12"
-   y="392.79099"
-   x="377.146" /><text
-   y="407.94339"
-   x="422.14008"
-   id="text3765"
-   class="score">0</text>
-
-
-<rect
-   style="fill:#ffebcc;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3767"
-   height="22.691999"
-   width="117"
-   class="st22"
-   y="415.48401"
-   x="260.146" /><text
-   class="team"
-   id="text3769"
-   class="score"
-   x="268.25201"
-   y="431.207">Efficient Spectrum</text>
-
-
-<rect
-   style="fill:#ff9900;stroke:#330000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3771"
-   height="22.691999"
-   width="51.030998"
-   class="st12"
-   y="415.48401"
-   x="377.146" /><text
-   y="430.63669"
-   x="422.14008"
-   id="text3773"
-   class="score">0</text>
-
-
-<rect
-   style="fill:#ffebcc;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3775"
-   height="22.691999"
-   width="117"
-   class="st22"
-   y="438.17801"
-   x="260.146" /><text
-   class="team"
-   id="text3777"
-   class="score"
-   x="268.25201"
-   y="453.90039">Efficient Spectrum</text>
-
-
-<rect
-   style="fill:#ff9900;stroke:#330000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3779"
-   height="22.691999"
-   width="51.030998"
-   class="st12"
-   y="438.17801"
-   x="377.146" /><text
-   y="453.33011"
-   x="422.14008"
-   id="text3781"
-   class="score">0</text>
-
-
-<rect
-   style="stroke:#000000;stroke-miterlimit:10"
-   id="rect3783"
-   height="22.174"
-   width="77.472"
-   class="st18"
-   y="370.617"
-   x="260.146" /><text
-   style="font-size:14px;font-weight:700;fill:#ffffff;font-family:Roboto Condensed"
-   id="text3785"
-   class="score"
-   x="262.25201"
-   y="386.2998">GROUP DEF2</text>
-
-
-<text
-   class="team"
-   id="text3787"
-   class="score"
-   x="349.25201"
-   y="385.2998">0 / 4</text>
-
-
-
-<rect
-   style="fill:#ffe0cc;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3791"
-   height="22.693001"
-   width="117"
-   class="st5"
-   y="85.160004"
-   x="470.01199" /><text
-   class="team"
-   id="text3793"
-   class="score"
-   x="478.11719"
-   y="100.8818">Efficient Spectrum</text>
-
-
-<rect
-   id="rect3795"
-   height="22.693001"
-   width="51.030998"
-   class="st4"
-   y="85.160004"
-   x="587.01202" /><text
-   y="100.3125"
-   x="632.00592"
-   id="text3797"
-   class="score">0</text>
-
-
-<rect
-   style="fill:#ffe0cc;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3799"
-   height="22.693001"
-   width="117"
-   class="st5"
-   y="107.853"
-   x="470.01199" /><text
-   class="team"
-   id="text3801"
-   class="score"
-   x="478.11719"
-   y="123.5752">Efficient Spectrum</text>
-
-
-<rect
-   id="rect3803"
-   height="22.693001"
-   width="51.030998"
-   class="st4"
-   y="107.853"
-   x="587.01202" /><text
-   style="score"
-   y="123.0049"
-   x="632.00592"
-   id="text3805"
-   class="score">0</text>
-
-
-<rect
-   style="fill:#ffe0cc;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3807"
-   height="22.691999"
-   width="117"
-   class="st5"
-   y="130.54601"
-   x="470.01199" /><text
-   class="team"
-   id="text3809"
-   class="score"
-   x="478.11719"
-   y="146.2686">Efficient Spectrum</text>
-
-
-<rect
-   id="rect3811"
-   height="22.691999"
-   width="51.030998"
-   class="st4"
-   y="130.54601"
-   x="587.01202" /><text
-   y="145.6982"
-   x="632.00592"
-   id="text3813"
-   class="score">0</text>
-
-
-<text
-   class="team"
-   id="text3815"
-   class="score"
-   x="559.11719"
-   y="77.6689">0 / 6</text>
-
-
-<rect
-   style="fill:#ffe0cc;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3817"
-   height="22.691999"
-   width="117"
-   class="st5"
-   y="152.979"
-   x="470.01199" /><text
-   class="team"
-   id="text3819"
-   class="score"
-   x="478.11719"
-   y="168.7021">Efficient Spectrum</text>
-
-
-<rect
-   id="rect3821"
-   height="22.691999"
-   width="51.030998"
-   class="st4"
-   y="152.979"
-   x="587.01202" /><text
-   y="168.13091"
-   x="632.00592"
-   id="text3823"
-   class="score">0</text>
-
-
-<rect
-   style="stroke:#000000;stroke-miterlimit:10"
-   id="rect3825"
-   height="22.174999"
-   width="77.473"
-   class="st18"
-   y="62.568001"
-   x="470.01199" /><text
-   style="font-size:14px;font-weight:700;fill:#ffffff;font-family:Roboto Condensed"
-   id="text3827"
-   class="score"
-   x="478.11719"
-   y="78.251999">GROUP G</text>
-
-
-
-<rect
-   style="fill:#ffe0cc;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3831"
-   height="22.691999"
-   width="117"
-   class="st5"
-   y="495.51801"
-   x="470.01199" /><text
-   class="team"
-   id="text3833"
-   class="score"
-   x="478.11719"
-   y="511.2402">Efficient Spectrum</text>
-
-
-<rect
-   id="rect3835"
-   height="22.691999"
-   width="51.030998"
-   class="st4"
-   y="495.51801"
-   x="587.01202" /><text
-   y="510.66989"
-   x="632.00592"
-   id="text3837"
-   class="score">0</text>
-
-
-<rect
-   style="fill:#ffe0cc;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3839"
-   height="22.693001"
-   width="117"
-   class="st5"
-   y="518.21002"
-   x="470.01199" /><text
-   class="team"
-   id="text3841"
-   class="score"
-   x="478.11719"
-   y="533.93359">Efficient Spectrum</text>
-
-
-<rect
-   id="rect3843"
-   height="22.693001"
-   width="51.030998"
-   class="st4"
-   y="518.21002"
-   x="587.01202" /><text
-   y="533.36328"
-   x="632.00592"
-   id="text3845"
-   class="score">0</text>
-
-
-<rect
-   style="fill:#ffe0cc;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3847"
-   height="22.691"
-   width="117"
-   class="st5"
-   y="540.90302"
-   x="470.01199" /><text
-   class="team"
-   id="text3849"
-   class="score"
-   x="478.11719"
-   y="556.62598">Efficient Spectrum</text>
-
-
-<rect
-   id="rect3851"
-   height="22.691"
-   width="51.030998"
-   class="st4"
-   y="540.90302"
-   x="587.01202" /><text
-   y="556.05573"
-   x="632.00592"
-   id="text3853"
-   class="score">0</text>
-
-
-<text
-   class="team"
-   id="text3855"
-   class="score"
-   x="559.11719"
-   y="488.0264">0 / 6</text>
-
-
-<rect
-   style="fill:#ffe0cc;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3857"
-   height="22.691999"
-   width="117"
-   class="st5"
-   y="563.33698"
-   x="470.01199" /><text
-   class="team"
-   id="text3859"
-   class="score"
-   x="478.11719"
-   y="579.05957">Efficient Spectrum</text>
-
-
-<rect
-   id="rect3861"
-   height="22.691999"
-   width="51.030998"
-   class="st4"
-   y="563.33698"
-   x="587.01202" /><text
-   y="578.48932"
-   x="632.00592"
-   id="text3863"
-   class="score">0</text>
-
-
-<rect
-   style="stroke:#000000;stroke-miterlimit:10"
-   id="rect3865"
-   height="22.174999"
-   width="77.473"
-   class="st18"
-   y="472.92599"
-   x="470.01199" /><text
-   style="font-size:14px;font-weight:700;fill:#ffffff;font-family:Roboto Condensed"
-   id="text3867"
-   class="score"
-   x="478.11719"
-   y="488.61041">GROUP H</text>
+<text x="68" y="20" class="stage">Perliminaries</text>
+<text x="296" y="20" class="stage">Pre-Seminfinals</text>
+<text x="521" y="20" class="stage">Semifinals</text>
+<text x="676" y="20" class="stage">Finals</text>
+
+<g id="group_a" transform="translate(0, 0)">
+    <rect x="30" y="39" width="78" height="22" class="group-box"  />
+        <text x="38" y="55" class="group">GROUP A</text>
+        <text id="group_a_progress" x="120" y="55" class="progress">0 / 4</text>
+
+    <rect x="30" y="61" width="118" height="22" class="team-box-preliminaries" />
+        <text id="group_a_team1" x="38" y="77" class="team">Efficient Spectrum</text>
+    <rect x="148" y="61" width="52" height="22" class="score-box-preliminaries" />
+        <text id="group_a_score1" x="192" y="77" class="score">0</text>
+
+    <rect x="30" y="83" width="118" height="22"  class="team-box-preliminaries" />
+        <text id="group_a_team2" x="38" y="99" class="team">Efficient Spectrum</text>
+    <rect x="148" y="83" width="52" height="22" class="score-box-preliminaries" />
+        <text id="group_a_score2" x="192" y="99" class="score">0</text>
+
+    <rect x="30" y="105" width="118" height="22"  class="team-box-preliminaries" />
+        <text id="group_a_team3" x="38" y="121" class="team">Efficient Spectrum</text>
+    <rect x="148" y="105" width="52" height="22" class="score-box-preliminaries" />
+        <text id="group_a_score3" x="192" y="121" class="score">0</text>
+</g>
+
+<g id="group_b" transform="translate(0, 93)">
+    <rect x="30" y="39" width="78" height="22" class="group-box"  />
+        <text x="38" y="55" class="group">GROUP B</text>
+        <text id="group_b_progress" x="120" y="55" class="progress">0 / 4</text>
+
+    <rect x="30" y="61" width="118" height="22" class="team-box-preliminaries" />
+        <text id="group_b_team1" x="38" y="77" class="team">Efficient Spectrum</text>
+    <rect x="148" y="61" width="52" height="22" class="score-box-preliminaries" />
+        <text id="group_b_score1" x="192" y="77" class="score">0</text>
+
+    <rect x="30" y="83" width="118" height="22"  class="team-box-preliminaries" />
+        <text id="group_b_team2" x="38" y="99" class="team">Efficient Spectrum</text>
+    <rect x="148" y="83" width="52" height="22" class="score-box-preliminaries" />
+        <text id="group_b_score2" x="192" y="99" class="score">0</text>
+
+    <rect x="30" y="105" width="118" height="22"  class="team-box-preliminaries" />
+        <text id="group_b_team3" x="38" y="121" class="team">Efficient Spectrum</text>
+    <rect x="148" y="105" width="52" height="22" class="score-box-preliminaries" />
+        <text id="group_b_score3" x="192" y="121" class="score">0</text>
+</g>
+
+<g id="group_c" transform="translate(0, 186)">
+    <rect x="30" y="39" width="78" height="22" class="group-box"  />
+        <text x="38" y="55" class="group">GROUP C</text>
+        <text id="group_c_progress" x="120" y="55" class="progress">0 / 4</text>
+
+    <rect x="30" y="61" width="118" height="22" class="team-box-preliminaries" />
+        <text id="group_c_team1" x="38" y="77" class="team">Efficient Spectrum</text>
+    <rect x="148" y="61" width="52" height="22" class="score-box-preliminaries" />
+        <text id="group_c_score1" x="192" y="77" class="score">0</text>
+
+    <rect x="30" y="83" width="118" height="22"  class="team-box-preliminaries" />
+        <text id="group_c_team2" x="38" y="99" class="team">Efficient Spectrum</text>
+    <rect x="148" y="83" width="52" height="22" class="score-box-preliminaries" />
+        <text id="group_c_score2" x="192" y="99" class="score">0</text>
+
+    <rect x="30" y="105" width="118" height="22"  class="team-box-preliminaries" />
+        <text id="group_c_team3" x="38" y="121" class="team">Efficient Spectrum</text>
+    <rect x="148" y="105" width="52" height="22" class="score-box-preliminaries" />
+        <text id="group_c_score3" x="192" y="121" class="score">0</text>
+</g>
+
+<g id="group_d" transform="translate(0, 279)">
+    <rect x="30" y="39" width="78" height="22" class="group-box"  />
+        <text x="38" y="55" class="group">GROUP D</text>
+        <text id="group_d_progress" x="120" y="55" class="progress">0 / 4</text>
+
+    <rect x="30" y="61" width="118" height="22" class="team-box-preliminaries" />
+        <text id="group_d_team1" x="38" y="77" class="team">Efficient Spectrum</text>
+    <rect x="148" y="61" width="52" height="22" class="score-box-preliminaries" />
+        <text id="group_d_score1" x="192" y="77" class="score">0</text>
+
+    <rect x="30" y="83" width="118" height="22"  class="team-box-preliminaries" />
+        <text id="group_d_team2" x="38" y="99" class="team">Efficient Spectrum</text>
+    <rect x="148" y="83" width="52" height="22" class="score-box-preliminaries" />
+        <text id="group_d_score2" x="192" y="99" class="score">0</text>
+
+    <rect x="30" y="105" width="118" height="22"  class="team-box-preliminaries" />
+        <text id="group_d_team3" x="38" y="121" class="team">Efficient Spectrum</text>
+    <rect x="148" y="105" width="52" height="22" class="score-box-preliminaries" />
+        <text id="group_d_score3" x="192" y="121" class="score">0</text>
+</g>
+
+<g id="group_e" transform="translate(0, 372)">
+    <rect x="30" y="39" width="78" height="22" class="group-box"  />
+        <text x="38" y="55" class="group">GROUP E</text>
+        <text id="group_e_progress" x="120" y="55" class="progress">0 / 4</text>
+
+    <rect x="30" y="61" width="118" height="22" class="team-box-preliminaries" />
+        <text id="group_e_team1" x="38" y="77" class="team">Efficient Spectrum</text>
+    <rect x="148" y="61" width="52" height="22" class="score-box-preliminaries" />
+        <text id="group_e_score1" x="192" y="77" class="score">0</text>
+
+    <rect x="30" y="83" width="118" height="22"  class="team-box-preliminaries" />
+        <text id="group_e_team2" x="38" y="99" class="team">Efficient Spectrum</text>
+    <rect x="148" y="83" width="52" height="22" class="score-box-preliminaries" />
+        <text id="group_e_score2" x="192" y="99" class="score">0</text>
+
+    <rect x="30" y="105" width="118" height="22"  class="team-box-preliminaries" />
+        <text id="group_e_team3" x="38" y="121" class="team">Efficient Spectrum</text>
+    <rect x="148" y="105" width="52" height="22" class="score-box-preliminaries" />
+        <text id="group_e_score3" x="192" y="121" class="score">0</text>
+</g>
+
+<g id="group_f" transform="translate(0, 465)">
+    <rect x="30" y="39" width="78" height="22" class="group-box"  />
+        <text x="38" y="55" class="group">GROUP F</text>
+        <text id="group_f_progress" x="120" y="55" class="progress">0 / 4</text>
+
+    <rect x="30" y="61" width="118" height="22" class="team-box-preliminaries" />
+        <text id="group_f_team1" x="38" y="77" class="team">Efficient Spectrum</text>
+    <rect x="148" y="61" width="52" height="22" class="score-box-preliminaries" />
+        <text id="group_f_score1" x="192" y="77" class="score">0</text>
+
+    <rect x="30" y="83" width="118" height="22"  class="team-box-preliminaries" />
+        <text id="group_f_team2" x="38" y="99" class="team">Efficient Spectrum</text>
+    <rect x="148" y="83" width="52" height="22" class="score-box-preliminaries" />
+        <text id="group_f_score2" x="192" y="99" class="score">0</text>
+
+    <rect x="30" y="105" width="118" height="22"  class="team-box-preliminaries" />
+        <text id="group_f_team3" x="38" y="121" class="team">Efficient Spectrum</text>
+    <rect x="148" y="105" width="52" height="22" class="score-box-preliminaries" />
+        <text id="group_f_score3" x="192" y="121" class="score">0</text>
+</g>
+
+
+
+<g id="group_abc2" transform="translate(232, 130)">
+    <rect x="30" y="39" width="78" height="22" class="group-box"  />
+        <text x="32" y="55" class="group">GROUP ABC2</text>
+        <text id="group_abc2_progress" x="120" y="55" class="progress">0 / 4</text>
+
+    <rect x="30" y="61" width="118" height="22" class="team-box-presemifinals" />
+        <text id="group_abc2_team1" x="38" y="77" class="team">Efficient Spectrum</text>
+    <rect x="148" y="61" width="52" height="22" class="score-box-presemifinals" />
+        <text id="group_abc2_score1" x="192" y="77" class="score">0</text>
+
+    <rect x="30" y="83" width="118" height="22"  class="team-box-presemifinals" />
+        <text id="group_abc2_team2" x="38" y="99" class="team">Efficient Spectrum</text>
+    <rect x="148" y="83" width="52" height="22" class="score-box-presemifinals" />
+        <text id="group_abc2_score2" x="192" y="99" class="score">0</text>
+
+    <rect x="30" y="105" width="118" height="22"  class="team-box-presemifinals" />
+        <text id="group_abc2_team3" x="38" y="121" class="team">Efficient Spectrum</text>
+    <rect x="148" y="105" width="52" height="22" class="score-box-presemifinals" />
+        <text id="group_abc2_score3" x="192" y="121" class="score">0</text>
+</g>
+
+<g id="group_def2" transform="translate(232, 331)">
+    <rect x="30" y="39" width="78" height="22" class="group-box"  />
+        <text x="32" y="55" class="group">GROUP DEF2</text>
+        <text id="group_def2_progress" x="120" y="55" class="progress">0 / 4</text>
+
+    <rect x="30" y="61" width="118" height="22" class="team-box-presemifinals" />
+        <text id="group_def2_team1" x="38" y="77" class="team">Efficient Spectrum</text>
+    <rect x="148" y="61" width="52" height="22" class="score-box-presemifinals" />
+        <text id="group_def2_score1" x="192" y="77" class="score">0</text>
+
+    <rect x="30" y="83" width="118" height="22"  class="team-box-presemifinals" />
+        <text id="group_def2_team2" x="38" y="99" class="team">Efficient Spectrum</text>
+    <rect x="148" y="83" width="52" height="22" class="score-box-presemifinals" />
+        <text id="group_def2_score2" x="192" y="99" class="score">0</text>
+
+    <rect x="30" y="105" width="118" height="22"  class="team-box-presemifinals" />
+        <text id="group_def2_team3" x="38" y="121" class="team">Efficient Spectrum</text>
+    <rect x="148" y="105" width="52" height="22" class="score-box-presemifinals" />
+        <text id="group_def2_score3" x="192" y="121" class="score">0</text>
+</g>
+
+<g id="group_g" transform="translate(440, 24)">
+    <rect x="30" y="39" width="78" height="22" class="group-box"  />
+        <text x="38" y="55" class="group">GROUP G</text>
+        <text id="group_g_progress" x="120" y="55" class="progress">0 / 6</text>
+
+    <rect x="30" y="61" width="118" height="22" class="team-box-semifinals" />
+        <text id="group_g_team1" x="38" y="77" class="team">Efficient Spectrum</text>
+    <rect x="148" y="61" width="52" height="22" class="score-box-semifinals" />
+        <text id="group_g_score1" x="192" y="77" class="score">0</text>
+
+    <rect x="30" y="83" width="118" height="22"  class="team-box-semifinals" />
+        <text id="group_g_team2" x="38" y="99" class="team">Efficient Spectrum</text>
+    <rect x="148" y="83" width="52" height="22" class="score-box-semifinals" />
+        <text id="group_g_score2" x="192" y="99" class="score">0</text>
+
+    <rect x="30" y="105" width="118" height="22"  class="team-box-semifinals" />
+        <text id="group_g_team3" x="38" y="121" class="team">Efficient Spectrum</text>
+    <rect x="148" y="105" width="52" height="22" class="score-box-semifinals" />
+        <text id="group_g_score3" x="192" y="121" class="score">0</text>
+
+    <rect x="30" y="127" width="118" height="22"  class="team-box-semifinals" />
+        <text id="group_g_team4" x="38" y="143" class="team">Efficient Spectrum</text>
+    <rect x="148" y="127" width="52" height="22" class="score-box-semifinals" />
+        <text id="group_g_score4" x="192" y="143" class="score">0</text>
+</g>
+
+<g id="group_h" transform="translate(440, 435)">
+    <rect x="30" y="39" width="78" height="22" class="group-box"  />
+        <text x="38" y="55" class="group">GROUP H</text>
+        <text id="group_h_progress" x="120" y="55" class="progress">0 / 6</text>
+
+    <rect x="30" y="61" width="118" height="22" class="team-box-semifinals" />
+        <text id="group_h_team1" x="38" y="77" class="team">Efficient Spectrum</text>
+    <rect x="148" y="61" width="52" height="22" class="score-box-semifinals" />
+        <text id="group_h_score1" x="192" y="77" class="score">0</text>
+
+    <rect x="30" y="83" width="118" height="22"  class="team-box-semifinals" />
+        <text id="group_h_team2" x="38" y="99" class="team">Efficient Spectrum</text>
+    <rect x="148" y="83" width="52" height="22" class="score-box-semifinals" />
+        <text id="group_h_score2" x="192" y="99" class="score">0</text>
+
+    <rect x="30" y="105" width="118" height="22"  class="team-box-semifinals" />
+        <text id="group_h_team3" x="38" y="121" class="team">Efficient Spectrum</text>
+    <rect x="148" y="105" width="52" height="22" class="score-box-semifinals" />
+        <text id="group_h_score3" x="192" y="121" class="score">0</text>
+
+    <rect x="30" y="127" width="118" height="22"  class="team-box-semifinals" />
+        <text id="group_h_team4" x="38" y="143" class="team">Efficient Spectrum</text>
+    <rect x="148" y="127" width="52" height="22" class="score-box-semifinals" />
+        <text id="group_h_score4" x="192" y="143" class="score">0</text>
+</g>
+
+
+<g id="group_finals" transform="translate(585, 247)">
+    <rect x="30" y="39" width="78" height="22" class="group-box"  />
+        <text x="38" y="55" class="group">FINALS</text>
+        <text id="group_finals_progress" x="120" y="55" class="progress">0 / 1</text>
+
+    <rect x="30" y="61" width="118" height="22" class="team-box-finals" />
+        <text id="group_finals_team1" x="38" y="77" class="team">Efficient Spectrum</text>
+    <rect x="148" y="61" width="52" height="22" class="score-box-finals" />
+        <text id="group_finals_score1" x="192" y="77" class="score">0</text>
+
+    <rect x="30" y="83" width="118" height="22"  class="team-box-finals" />
+        <text id="group_finals_team2" x="38" y="99" class="team">Efficient Spectrum</text>
+    <rect x="148" y="83" width="52" height="22" class="score-box-finals" />
+        <text id="group_finals_score2" x="192" y="99" class="score">0</text>
+</g>
+
+<g>
+    <g>
+        <g>
+            <line class="flow-solid" x1="200" y1="72" x2="457.597" y2="72"/>
+            <g>
+                <polygon points="454.823,75.896 470,71.832 454.823,67.762               "/>
+            </g>
+        </g>
+    </g>
+    <line class="flow-solid" x1="211.167" y1="259" x2="211.167" y2="72"/>
+    <line class="flow-solid" x1="200" y1="258" x2="211.167" y2="258"/>
+    <line class="flow-solid" x1="200" y1="165" x2="211.167" y2="165"/>
+</g>
+
+
+<!--
 
 
 
 <g
    id="g3869">
-	<g
+    <g
    id="g3871">
-		<g
+        <g
    id="g3873">
-			<line
+            <line
    class="st16"
    x1="237.5"
    y1="73.656"
    x2="457.608"
    y2="73.656"
    id="line3875" />
-			<g
+            <g
    id="g3877">
-				<polygon
+                <polygon
    points="454.835,77.552 470.012,73.488 454.835,69.417     "
    id="polygon3879" />
-			</g>
-		</g>
-	</g>
-	<line
+            </g>
+        </g>
+    </g>
+    <line
    class="st16"
    x1="198.178"
    y1="157.563"
    x2="237.5"
    y2="157.563"
    id="line3881" />
-	<polyline
+    <polyline
    class="st16"
    points="198.178,62.388 237.5,62.388 237.5,252.74 198.178,252.74  "
    id="polyline3883" />
 </g>
+
+
 <g
    id="g3885">
 	<g
@@ -1249,90 +474,6 @@
 		</g>
 	</g>
 </g>
-<g
-   id="g3931"
-   transform="translate(-0.44612415,0.89224831)">
-		<rect
-   style="stroke:#000000;stroke-miterlimit:10"
-   id="rect3933"
-   height="22.173"
-   width="77.473"
-   class="st18"
-   y="283.229"
-   x="615.02698" />
-		<text
-   style="font-size:14px;font-weight:700;fill:#ffffff;font-family:Roboto Condensed"
-   id="text3935"
-   class="score"
-   transform="translate(625.1328,298.9121)">FINALS</text>
-
-
-
-
-	</g><rect
-   style="fill:#ffd6cc;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3937"
-   height="22.693001"
-   width="117"
-   class="st14"
-   y="307.633"
-   x="615.02698" /><text
-   class="team"
-   id="text3939"
-   class="score"
-   x="623.13281"
-   y="323.3555">Efficient Spectrum</text>
-
-
-<rect
-   style="fill:#ff3300;stroke:#330000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3941"
-   height="22.693001"
-   width="51.028999"
-   class="st21"
-   y="307.633"
-   x="732.02698" /><text
-   y="322.78519"
-   x="777.02148"
-   id="text3943"
-   class="score">0</text>
-
-
-<rect
-   style="fill:#ffd6cc;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3945"
-   height="22.691"
-   width="117"
-   class="st14"
-   y="330.32599"
-   x="615.02698" /><text
-   class="team"
-   id="text3947"
-   class="score"
-   x="623.13281"
-   y="346.0488">Efficient Spectrum</text>
-
-
-<rect
-   style="fill:#ef3c24;stroke:#330000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3949"
-   height="22.691"
-   width="51.028999"
-   class="st6"
-   y="330.32599"
-   x="732.02698" /><text
-   y="345.47849"
-   x="777.02148"
-   id="text3951"
-   class="score">0</text>
-
-
-<text
-   class="team"
-   id="text3953"
-   class="score"
-   x="703.02728"
-   y="298.4082">0 / 1</text>
 
 
 
@@ -1599,103 +740,6 @@
 
 
 
-
-<rect
-   style="fill:#ffffb3;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3669"
-   height="22.693001"
-   width="117"
-   class="st13"
-   y="51.042"
-   x="30.146" /><text
-   class="team"
-   class="score"
-   id="group_a_team1"
-   x="38.251999"
-   y="66.764603">Efficient Spectrum</text>
-<rect
-   style="fill:#ffff00;stroke:#330000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3672"
-   height="22.693001"
-   width="51.030998"
-   class="st23"
-   y="51.042"
-   x="147.146" /><text
-   class="team"
-   y="66.193398"
-   x="192.14009"
-   class="score"
-   id="group_a_score1"><tspan
-     id="tspan4073"
-     style="text-align:end;text-anchor:end">0</tspan></text>
-<rect
-   style="fill:#ffffb3;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3675"
-   height="22.693001"
-   width="117"
-   class="st13"
-   y="73.734001"
-   x="30.146" /><text
-   class="team"
-   class="score"
-   id="group_a_team2"
-   x="38.251999"
-   y="89.457001">Efficient Spectrum</text>
-<rect
-   style="fill:#ffff00;stroke:#330000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3678"
-   height="22.693001"
-   width="51.030998"
-   class="st23"
-   y="73.734001"
-   x="147.146" /><text
-   y="88.886703"
-   x="192.14009"
-   class="score"
-   id="group_a_score2">0</text>
-<rect
-   style="fill:#ffffb3;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3681"
-   height="22.693001"
-   width="117"
-   class="st13"
-   y="96.427002"
-   x="30.146" /><text
-   class="team"
-   class="score"
-   id="group_a_team3"
-   x="38.251999"
-   y="112.1504">Efficient Spectrum</text>
-<rect
-   style="fill:#ffff00;stroke:#330000;stroke-width:2;stroke-miterlimit:10"
-   id="rect3684"
-   height="22.693001"
-   width="51.030998"
-   class="st23"
-   y="96.427002"
-   x="147.146" /><text
-   y="111.5801"
-   x="192.14009"
-   class="score"
-   id="group_a_score3">0</text>
-<rect
-   style="stroke:#000000;stroke-miterlimit:10"
-   id="rect3687"
-   height="22.174"
-   width="77.472"
-   class="st18"
-   y="28.867001"
-   x="30.146" /><text
-   style="font-size:14px;font-weight:700;fill:#ffffff;font-family:Roboto Condensed"
-   id="text3689"
-   class="score"
-   x="38.251999"
-   y="44.5508">GROUP A</text>
-<text
-   class="team"
-   id="group_a_progress"
-   class="score"
-   x="119.252"
-   y="43.5508">0 / 4</text>
+-->
 
 </svg>

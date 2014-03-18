@@ -16,7 +16,7 @@
             <tr>
                 <td>
                     <h2 style="font-family: 'Roboto Condensed'; font-weight: 400;">Competitive</h1>
-                    <object type="image/svg+xml" width="800" height="600" data="comp3.svg"><span/></object>
+                    <object id="comp-object" type="image/svg+xml" width="800" height="600" data="comp.svg"><span/></object>
                 </td>
                 <td rowspan="2" data-twttr-id="twttr-sandbox-0" style="vertical-align: top;width: 400px;">
                     <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/volgy" data-widget-id="445600969053593600">Tweets by @volgy</a>
@@ -25,14 +25,36 @@
             <tr>
                 <td>
                     <h2 style="font-family: 'Roboto Condensed'; font-weight: 400;">Cooperative</h1>
-                    <object type="image/svg+xml" width="800" height="600" data="comp.svg"><span/></object>
+                    <object id="coop-object" type="image/svg+xml" width="800" height="600" data="comp.svg"><span/></object>
                 </td>
             </tr>
         </table>
         
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>
-        m = document.getElementById("group_a_score1");
+            $(document).ready(function() {
+                // assisting jQuery
+                window.comp = $(document.getElementById('comp-object').contentDocument.getElementById('comp-svg'));
+                updater();
+            });
+
+            function updater() {
+                $.getJSON('comp.json')
+                    .done(function( data, textStatus, jqXHR ) {
+                        var last = comp.data('last')
+                        var now = jqXHR.getResponseHeader('Last-Modified');
+                        if (last !== now) {
+                            console.log('UPDATE');
+                            comp.data('last', now)
+                            comp.find('#group_a_team1').text('haha');
+                        }
+                    })
+                    .always(function() {
+                        setTimeout(updater, 1000);
+                    });
+            }
         </script>
+
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
     </body>
 </html>
