@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="comp-svg" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="800px" height="600px"
+	 viewBox="0 0 800 600" enable-background="new 0 0 800 600" xml:space="preserve">
+<xhtml:link  href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300" type="text/css" rel="stylesheet">
+	</xhtml:link>
+
+<style type="text/css">
+    .stage{font-family:'Roboto Condensed'; font-weight: 400; font-size:16px;}
+    .group{font-family:'Roboto Condensed'; font-weight: 700; fill:#FFFFFF; font-size:14px;}
+    .group-box{stroke:#000000; fill:#000000;}
+    .progress{font-family:'Roboto Condensed';font-size:14px; font-weight:300;}
+    .score{font-family:'Roboto Condensed';font-size:14px; font-weight:400; text-align:end; text-anchor:end;}
+    .team{font-family:'Roboto Condensed';font-size:14px; font-weight:400;}
+    .team-box-preliminaries{fill:#99FF00;stroke:#000000;stroke-width:2;}
+    .score-box-preliminaries{fill:#EBFFCC;stroke:#000000;stroke-width:2;}
+    .team-box-semifinals{fill:#CCFFE0;stroke:#000000;stroke-width:2;}
+    .score-box-semifinals{fill:#00FF66;stroke:#000000;stroke-width:2;}
+    .team-box-finals{fill:#CCFFF7;stroke:#000000;stroke-width:2;}
+    .score-box-finals{fill:#00FFD4;stroke:#000000;stroke-width:2;}
+    .flow-solid{fill:none;stroke:#000000;stroke-width:2;}
+</style>
+
+<text transform="matrix(1 0 0 1 67.5 21.5)" class="stage">Perliminaries</text>
+<text transform="matrix(1 0 0 1 364.5 21.5)" class="stage">Semifinals</text>
+<text transform="matrix(1 0 0 1 679.5 21.5)" class="stage">Finals</text>
+<g id="group_b">
+	<rect x="23.355" y="41" stroke="#000000" width="78" height="22"/>
+	<text transform="matrix(1 0 0 1 31.3555 57)" class="group">GROUP B</text>
+	<text id="group_b_progress" transform="matrix(1 0 0 1 113.3555 57)" class="progress">0 / 4</text>
+	<rect x="23.355" y="63" class="score-box-preliminaries" width="118" height="22"/>
+	<text id="group_b_team1" transform="matrix(1 0 0 1 31.3555 79)" class="team">Efficient Spectrum</text>
+	<rect x="141.355" y="63" class="team-box-preliminaries" width="52" height="22"/>
+	<text id="group_b_score1" transform="matrix(1 0 0 1 184 79)" class="score">0</text>
+	<rect x="23.355" y="85" class="score-box-preliminaries" width="118" height="22"/>
+	<text id="group_b_team2" transform="matrix(1 0 0 1 31.3555 101)" class="team">Efficient Spectrum</text>
+	<rect x="141.355" y="85" class="team-box-preliminaries" width="52" height="22"/>
+	<text id="group_b_score2" transform="matrix(1 0 0 1 184 101)" class="score">0</text>
+	<rect x="23.355" y="107" class="score-box-preliminaries" width="118" height="22"/>
+	<text id="group_b_team3" transform="matrix(1 0 0 1 31.3555 123)" class="team">Efficient Spectrum</text>
+	<rect x="141.355" y="107" class="team-box-preliminaries" width="52" height="22"/>
+	<text id="group_b_score3" transform="matrix(1 0 0 1 184 123)" class="score">0</text>
+	<rect x="23.355" y="129" class="score-box-preliminaries" width="118" height="22"/>
+	<text id="group_b_team4" transform="matrix(1 0 0 1 31.3555 145)" class="team">Efficient Spectrum</text>
+	<rect x="141.355" y="129" class="team-box-preliminaries" width="52" height="22"/>
+	<text id="group_b_score4" transform="matrix(1 0 0 1 184 145)" class="score">0</text>
+</g>
+<g id="group_c">
+	<rect x="23.355" y="183.833" stroke="#000000" width="78" height="22"/>
+	<text transform="matrix(1 0 0 1 31.3555 199.833)" class="group">GROUP C</text>
+	
+		<text id="group_c_progress" transform="matrix(1 0 0 1 113.3555 199.833)" class="progress">0 / 4</text>
+	<rect x="23.355" y="205.833" class="score-box-preliminaries" width="118" height="22"/>
+	<text id="group_c_team1" transform="matrix(1 0 0 1 31.3555 221.833)" class="team">Efficient Spectrum</text>
+	<rect x="141.355" y="205.833" class="team-box-preliminaries" width="52" height="22"/>
+	
+		<text id="group_c_score1" transform="matrix(1 0 0 1 184 221.833)" class="score">0</text>
+	<rect x="23.355" y="227.833" class="score-box-preliminaries" width="118" height="22"/>
+	<text id="group_c_team2" transform="matrix(1 0 0 1 31.3555 243.833)" class="team">Efficient Spectrum</text>
+	<rect x="141.355" y="227.833" class="team-box-preliminaries" width="52" height="22"/>
+	
+		<text id="group_c_score2" transform="matrix(1 0 0 1 184 243.833)" class="score">0</text>
+	<rect x="23.355" y="249.833" class="score-box-preliminaries" width="118" height="22"/>
+	<text id="group_c_team3" transform="matrix(1 0 0 1 31.3555 265.833)" class="team">Efficient Spectrum</text>
+	<rect x="141.355" y="249.833" class="team-box-preliminaries" width="52" height="22"/>
+	
+		<text id="group_c_score3" transform="matrix(1 0 0 1 184 265.833)" class="score">0</text>
+	<rect x="23.355" y="271.833" class="score-box-preliminaries" width="118" height="22"/>
+	<text id="group_c_team4" transform="matrix(1 0 0 1 31.3555 287.833)" class="team">Efficient Spectrum</text>
+	<rect x="141.355" y="271.833" class="team-box-preliminaries" width="52" height="22"/>
+	
+		<text id="group_c_score4" transform="matrix(1 0 0 1 184 287.833)" class="score">0</text>
+</g>
+<g id="group_d">
+	<rect x="23.355" y="326.667" stroke="#000000" width="78" height="22"/>
+	<text transform="matrix(1 0 0 1 31.3555 342.667)" class="group">GROUP D</text>
+	
+		<text id="group_d_progress" transform="matrix(1 0 0 1 113.3555 342.667)" class="progress">0 / 4</text>
+	<rect x="23.355" y="348.667" class="score-box-preliminaries" width="118" height="22"/>
+	<text id="group_d_team1" transform="matrix(1 0 0 1 31.3555 364.667)" class="team">Efficient Spectrum</text>
+	<rect x="141.355" y="348.667" class="team-box-preliminaries" width="52" height="22"/>
+	
+		<text id="group_d_score1" transform="matrix(1 0 0 1 184 364.667)" class="score">0</text>
+	<rect x="23.355" y="370.667" class="score-box-preliminaries" width="118" height="22"/>
+	<text id="group_d_team2" transform="matrix(1 0 0 1 31.3555 386.667)" class="team">Efficient Spectrum</text>
+	<rect x="141.355" y="370.667" class="team-box-preliminaries" width="52" height="22"/>
+	
+		<text id="group_d_score2" transform="matrix(1 0 0 1 184 386.667)" class="score">0</text>
+	<rect x="23.355" y="392.667" class="score-box-preliminaries" width="118" height="22"/>
+	<text id="group_d_team3" transform="matrix(1 0 0 1 31.3555 408.667)" class="team">Efficient Spectrum</text>
+	<rect x="141.355" y="392.667" class="team-box-preliminaries" width="52" height="22"/>
+	
+		<text id="group_d_score3" transform="matrix(1 0 0 1 184 408.667)" class="score">0</text>
+	<rect x="23.355" y="414.667" class="score-box-preliminaries" width="118" height="22"/>
+	<text id="group_d_team4" transform="matrix(1 0 0 1 31.3555 430.667)" class="team">Efficient Spectrum</text>
+	<rect x="141.355" y="414.667" class="team-box-preliminaries" width="52" height="22"/>
+	
+		<text id="group_d_score4" transform="matrix(1 0 0 1 184 430.667)" class="score">0</text>
+</g>
+<g id="group_e">
+	<rect x="23.355" y="469.5" stroke="#000000" width="78" height="22"/>
+	<text transform="matrix(1 0 0 1 31.3555 485.5)" class="group">GROUP E</text>
+	<text id="group_e_progress" transform="matrix(1 0 0 1 113.3555 485.5)" class="progress">0 / 4</text>
+	<rect x="23.355" y="491.5" class="score-box-preliminaries" width="118" height="22"/>
+	<text id="group_e_team1" transform="matrix(1 0 0 1 31.3555 507.5)" class="team">Efficient Spectrum</text>
+	<rect x="141.355" y="491.5" class="team-box-preliminaries" width="52" height="22"/>
+	<text id="group_e_score1" transform="matrix(1 0 0 1 184 507.5)" class="score">0</text>
+	<rect x="23.355" y="513.5" class="score-box-preliminaries" width="118" height="22"/>
+	<text id="group_e_team2" transform="matrix(1 0 0 1 31.3555 529.5)" class="team">Efficient Spectrum</text>
+	<rect x="141.355" y="513.5" class="team-box-preliminaries" width="52" height="22"/>
+	<text id="group_e_score2" transform="matrix(1 0 0 1 184 529.5)" class="score">0</text>
+	<rect x="23.355" y="535.5" class="score-box-preliminaries" width="118" height="22"/>
+	<text id="group_e_team3" transform="matrix(1 0 0 1 31.3555 551.5)" class="team">Efficient Spectrum</text>
+	<rect x="141.355" y="535.5" class="team-box-preliminaries" width="52" height="22"/>
+	<text id="group_e_score3" transform="matrix(1 0 0 1 184 551.5)" class="score">0</text>
+	<rect x="23.355" y="557.5" class="score-box-preliminaries" width="118" height="22"/>
+	<text id="group_e_team4" transform="matrix(1 0 0 1 31.3555 573.5)" class="team">Efficient Spectrum</text>
+	<rect x="141.355" y="557.5" class="team-box-preliminaries" width="52" height="22"/>
+	<text id="group_e_score4" transform="matrix(1 0 0 1 184 573.5)" class="score">0</text>
+</g>
+<g id="group_f">
+	<rect x="312.047" y="112.417" stroke="#000000" width="78" height="22"/>
+	<text transform="matrix(1 0 0 1 320.0469 128.417)" class="group">GROUP F</text>
+	
+		<text id="group_f_progress" transform="matrix(1 0 0 1 402.0469 128.417)" class="progress">0 / 4</text>
+	<rect x="312.047" y="134.417" class="team-box-semifinals" width="118" height="22"/>
+	
+		<text id="group_f_team1" transform="matrix(1 0 0 1 320.0469 150.417)" class="team">Efficient Spectrum</text>
+	<rect x="430.047" y="134.417" class="score-box-semifinals" width="52" height="22"/>
+	
+		<text id="group_f_score1" transform="matrix(1 0 0 1 472.7 150.417)" class="score">0</text>
+	<rect x="312.047" y="156.417" class="team-box-semifinals" width="118" height="22"/>
+	
+		<text id="group_f_team2" transform="matrix(1 0 0 1 320.0469 172.417)" class="team">Efficient Spectrum</text>
+	<rect x="430.047" y="156.417" class="score-box-semifinals" width="52" height="22"/>
+	
+		<text id="group_f_score2" transform="matrix(1 0 0 1 472.7 172.417)" class="score">0</text>
+	<rect x="312.047" y="178.417" class="team-box-semifinals" width="118" height="22"/>
+	
+		<text id="group_f_team3" transform="matrix(1 0 0 1 320.0469 194.417)" class="team">Efficient Spectrum</text>
+	<rect x="430.047" y="178.417" class="score-box-semifinals" width="52" height="22"/>
+	
+		<text id="group_f_score3" transform="matrix(1 0 0 1 472.7 194.417)" class="score">0</text>
+	<rect x="312.047" y="200.417" class="team-box-semifinals" width="118" height="22"/>
+	
+		<text id="group_f_team4" transform="matrix(1 0 0 1 320.0469 216.417)" class="team">Efficient Spectrum</text>
+	<rect x="430.047" y="200.417" class="score-box-semifinals" width="52" height="22"/>
+	
+		<text id="group_f_score4" transform="matrix(1 0 0 1 472.7 216.417)" class="score">0</text>
+</g>
+<g id="group_g">
+	<rect x="312.047" y="398.084" stroke="#000000" width="78" height="22"/>
+	<text transform="matrix(1 0 0 1 320.0469 414.084)" class="group">GROUP G</text>
+	
+		<text id="group_g_progress" transform="matrix(1 0 0 1 402.0469 414.084)" class="progress">0 / 4</text>
+	<rect x="312.047" y="420.084" class="team-box-semifinals" width="118" height="22"/>
+	
+		<text id="group_g_team1" transform="matrix(1 0 0 1 320.0469 436.084)" class="team">Efficient Spectrum</text>
+	<rect x="430.047" y="420.084" class="score-box-semifinals" width="52" height="22"/>
+	
+		<text id="group_g_score1" transform="matrix(1 0 0 1 472.7 436.084)" class="score">0</text>
+	<rect x="312.047" y="442.084" class="team-box-semifinals" width="118" height="22"/>
+	
+		<text id="group_g_team2" transform="matrix(1 0 0 1 320.0469 458.084)" class="team">Efficient Spectrum</text>
+	<rect x="430.047" y="442.084" class="score-box-semifinals" width="52" height="22"/>
+	
+		<text id="group_g_score2" transform="matrix(1 0 0 1 472.7 458.084)" class="score">0</text>
+	<rect x="312.047" y="464.084" class="team-box-semifinals" width="118" height="22"/>
+	
+		<text id="group_g_team3" transform="matrix(1 0 0 1 320.0469 480.084)" class="team">Efficient Spectrum</text>
+	<rect x="430.047" y="464.084" class="score-box-semifinals" width="52" height="22"/>
+	
+		<text id="group_g_score3" transform="matrix(1 0 0 1 472.7 480.084)" class="score">0</text>
+	<rect x="312.047" y="486.084" class="team-box-semifinals" width="118" height="22"/>
+	
+		<text id="group_g_team4" transform="matrix(1 0 0 1 320.0469 502.084)" class="team">Efficient Spectrum</text>
+	<rect x="430.047" y="486.084" class="score-box-semifinals" width="52" height="22"/>
+	
+		<text id="group_g_score4" transform="matrix(1 0 0 1 472.7 502.084)" class="score">0</text>
+</g>
+<g id="group_h">
+	<rect x="616.5" y="255.5" stroke="#000000" width="78" height="22"/>
+	<text transform="matrix(1 0 0 1 624.5 271.5)" class="group">GROUP H</text>
+	<text id="group_h_progress" transform="matrix(1 0 0 1 706.5 271.5)" class="progress">0 / 4</text>
+	<rect x="616.5" y="277.5" class="team-box-finals" width="118" height="22"/>
+	<text id="group_h_team1" transform="matrix(1 0 0 1 624.5 293.5)" class="team">Efficient Spectrum</text>
+	<rect x="734.5" y="277.5" class="score-box-finals" width="52" height="22"/>
+	<text id="group_h_score1" transform="matrix(1 0 0 1 777 293.5)" class="score">0</text>
+	<rect x="616.5" y="299.5" class="team-box-finals" width="118" height="22"/>
+	<text id="group_h_team2" transform="matrix(1 0 0 1 624.5 315.5)" class="team">Efficient Spectrum</text>
+	<rect x="734.5" y="299.5" class="score-box-finals" width="52" height="22"/>
+	<text id="group_h_score2" transform="matrix(1 0 0 1 777 315.5)" class="score">0</text>
+	<rect x="616.5" y="321.5" class="team-box-finals" width="118" height="22"/>
+	<text id="group_h_team3" transform="matrix(1 0 0 1 624.5 337.5)" class="team">Efficient Spectrum</text>
+	<rect x="734.5" y="321.5" class="score-box-finals" width="52" height="22"/>
+	<text id="group_h_score3" transform="matrix(1 0 0 1 777 337.5)" class="score">0</text>
+	<rect x="616.5" y="343.5" class="team-box-finals" width="118" height="22"/>
+	<text id="group_h_team4" transform="matrix(1 0 0 1 624.5 359.5)" class="team">Efficient Spectrum</text>
+	<rect x="734.5" y="343.5" class="score-box-finals" width="52" height="22"/>
+	<text id="group_h_score4" transform="matrix(1 0 0 1 777 359.5)" class="score">0</text>
+</g>
+<g>
+	<g>
+		<polyline class="flow-solid" points="193.5,75.5 211.5,75.5 211.5,147.5 298.097,147.5 		"/>
+		<g>
+			<polygon points="295.323,151.396 310.5,147.332 295.323,143.262 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<polyline class="flow-solid" points="193.5,237.5 211.5,237.5 211.5,165.5 298.097,165.5 		"/>
+		<g>
+			<polygon points="295.323,169.396 310.5,165.332 295.323,161.262 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<polyline class="flow-solid" points="193.5,363.5 220.5,363.5 220.5,192.5 298.097,192.5 		"/>
+		<g>
+			<polygon points="295.323,196.396 310.5,192.332 295.323,188.262 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<polyline class="flow-solid" points="193.5,525.5 229.5,525.5 229.5,210.5 298.097,210.5 		"/>
+		<g>
+			<polygon points="295.323,214.396 310.5,210.332 295.323,206.262 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<polyline class="flow-solid" stroke-dasharray="2,2" points="193.5,93.5 274.5,93.5 274.5,435.5 
+			298.097,435.5 		"/>
+		<g>
+			<polygon points="295.323,439.396 310.5,435.332 295.323,431.262 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<polyline class="flow-solid" stroke-dasharray="2,2" points="193.5,219.5 265.5,219.5 265.5,453.5 
+			298.097,453.5 		"/>
+		<g>
+			<polygon points="295.323,457.396 310.5,453.332 295.323,449.262 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<polyline class="flow-solid" stroke-dasharray="2,2" points="193.5,381.5 256.5,381.5 256.5,471.5 
+			298.097,471.5 		"/>
+		<g>
+			<polygon points="295.323,475.396 310.5,471.332 295.323,467.262 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="flow-solid" stroke-dasharray="2,2" x1="193.5" y1="498.5" x2="298.097" y2="498.5"/>
+		<g>
+			<polygon points="295.323,502.396 310.5,498.332 295.323,494.262 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<polyline class="flow-solid" points="481.5,147.5 553.5,147.5 553.5,291.5 604.097,291.5 		"/>
+		<g>
+			<polygon points="601.323,295.396 616.5,291.332 601.323,287.262 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<polyline class="flow-solid" points="481.5,165.5 535.5,165.5 535.5,309.5 604.097,309.5 		"/>
+		<g>
+			<polygon points="601.323,313.396 616.5,309.332 601.323,305.262 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<polyline class="flow-solid" points="481.5,435.5 535.5,435.5 535.5,327.5 604.097,327.5 		"/>
+		<g>
+			<polygon points="601.323,331.396 616.5,327.332 601.323,323.262 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<polyline class="flow-solid" points="481.5,453.5 553.5,453.5 553.5,354.5 604.097,354.5 		"/>
+		<g>
+			<polygon points="601.323,358.396 616.5,354.332 601.323,350.262 			"/>
+		</g>
+	</g>
+</g>
+</svg>
