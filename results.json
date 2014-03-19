@@ -69,6 +69,7 @@
             {"Purdue": {"Ap": 2614}, "Wasabi": {"Bp": 4362}, "VT-CogRad": {"Cp": 7729}}
         ],
         "group_e" : [
+            {"MarmotE": {"As": 0}, "Gator Wings": {"Bs": 3343}, "GTRI": {"Cs": 15000}}
         ],
         "group_f" : [
         ],
