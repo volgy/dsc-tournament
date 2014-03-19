@@ -62,7 +62,8 @@
         "group_b" : [
             {"WSL-NEU": {"Ap": 12510}, "Winbot": {"Bp": 6480}, "Wireless Infidels": {"Cp": 1656}},
             {"Winbot": {"Ap": 5514}, "WSL-NEU": {"Bp": 13189}, "Notre Spectrum": {"Cp": 5082}},
-            {"Wireless Infidels": {"Ap": 1739}, "Notre Spectrum": {"Bp": 15000}, "Winbot": {"Cp": 8678}}
+            {"Wireless Infidels": {"Ap": 1739}, "Notre Spectrum": {"Bp": 15000}, "Winbot": {"Cp": 8678}},
+            {"Notre Spectrum": {"Ap": 5637}, "Wireless Infidels": {"Bp": 1631}, "WSL-NEU": {"Cp": 14996}}
         ],
         "group_c" : [
             {"Efficient Spectrum": {"As": 15000}, "VT-Hume": {"Bs": 3738}, "Orange WiWar": {"Cs": 3457}},
