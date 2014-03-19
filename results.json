@@ -48,7 +48,7 @@
         "group_abc2" : [
             {"Purdue": [{"Xs": 1616}, {"Ys": 2743}], "WSL-NEU": [{"Ys": 15000}, {"Xs": 2039}]},
             {"Purdue": [{"Xs": 2269}, {"Ys": 2668}], "Wasabi": [{"Ys": 15000}, {"Xs": 14999}]},
-            {"WSL-NEU": [{"Xs": 1073}, {"Ys": null}], "Wasabi": [{"Ys": 15000}, {"Xs": null}]}
+            {"WSL-NEU": [{"Xs": 1073}, {"Ys": 15000}], "Wasabi": [{"Ys": 15000}, {"Xs": 5523}]}
         ],
         "group_def2" : [
             {"Wireless Infidels": [{"Xp": 0}, {"Yp": 0}], "KPE": [{"Yp": 9755}, {"Xp": 9497}]},
