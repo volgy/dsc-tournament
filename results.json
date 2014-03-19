@@ -14,7 +14,7 @@
         "Tenn Tech Tel",
         "VT-CogRad",
         "VT-Hume",
-        "Wasabi",
+        "wasabi",
         "Wireless Infidels",
         "WSL-NEU"
     ],
@@ -25,7 +25,6 @@
             {"Purdue": [], "GTRI": []}
         ],
         "group_b" : [
-            {"WSL-NEU": [], "Orange WiWar": []}
         ],
         "group_c" : [
         ],
