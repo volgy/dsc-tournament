@@ -73,7 +73,7 @@
         ],
         "group_e" : [
             {"MarmotE": {"As": 0}, "Gator Wings": {"Bs": 3343}, "GTRI": {"Cs": 15000}},
-            {"Gator Wings": {"As": null}, "MarmotE": {"Bs": null}, "Wildcats": {"Cs": null}}
+            {"Gator Wings": {"As": 12298}, "MarmotE": {"Bs": 15000}, "Wildcats": {"Cs": 5817}}
 
         ],
         "group_f" : [
