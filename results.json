@@ -50,7 +50,8 @@
             {"Purdue": [{"Xs": 2269}, {"Ys": null}], "Wasabi": [{"Ys": 15000}, {"Xs": null}]}
         ],
         "group_def2" : [
-            {"Wireless Infidels": [{"Xp": 0}, {"Yp": 0}], "KPE": [{"Xp": 9755}, {"Yp": 9497}]}
+            {"Wireless Infidels": [{"Xp": 0}, {"Yp": 0}], "KPE": [{"Xp": 9755}, {"Yp": 9497}]},
+            {"Wireless Infidels": [{"Xp": null}, {"Yp": null}], "Wildcats": [{"Xp": null}, {"Yp": null}]}
         ],
         "group_g" : [
         ],
