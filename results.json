@@ -39,7 +39,7 @@
         ],
         "group_e" : [
             {"MarmotE": [{"Xp": 15000}, {"Yp": 15000}], "VT-CogRad": [{"Yp": 1009}, {"Xp": 0}]},
-            {"MarmotE": [{"Xp": 15000}, {"Yp": null}], "KPE": [{"Yp": 2226}, {"Xp": null}]}
+            {"MarmotE": [{"Xp": 15000}, {"Yp": 15000}], "KPE": [{"Yp": 2226}, {"Xp": 1985}]}
         ],
         "group_f" : [
             {"VT-Hume": [{"Xs": 703}, {"Ys": 1358}], "Wildcats": [{"Ys": 23}, {"Xs": 0}]}
