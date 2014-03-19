@@ -28,7 +28,8 @@
             {"WSL-NEU": [{"Xs": 38}, {"Ys": 15000}], "Orange WiWar": [{"Ys": 15000}, {"Xs": 2991}]}
         ],
         "group_c" : [
-            {"Gator Wings": [{"Xp": 15000}, {"Yp": 15000}], "wasabi": [{"Yp": 10859}, {"Xp": 1685}]}
+            {"Gator Wings": [{"Xp": 15000}, {"Yp": 15000}], "wasabi": [{"Yp": 10859}, {"Xp": 1685}]},
+            {"Gator Wings": [{"Xp": 15000}, {"Yp": null}], "Notre Spectrum": [{"Yp": 311}, {"Xp": null}]}
         ],
         "group_d" : [
             {"Efficient Spectrum": [{"Xs": 15000}, {"Ys": 15000}], "Wireless Infidels": [{"Ys": 0}, {"Xs": 553}]}
