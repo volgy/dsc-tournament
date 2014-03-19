@@ -8,10 +8,10 @@
         "KPE",
         "Wildcats",
         "Notre Spectrum",
-        "Orange Warriors",
+        "Orange WiWar",
         "Purdue",
         "Spartans",
-        "TennTech Telecom",
+        "Tenn Tech Tel",
         "VT-CogRad",
         "VT-Hume",
         "Wasabi",
@@ -22,8 +22,10 @@
 
     "comp" : {
         "group_a" : [
+            {"Purdue": [], "GTRI": []}
         ],
         "group_b" : [
+            {"WSL-NEU": [], "Orange WiWar": []}
         ],
         "group_c" : [
         ],
