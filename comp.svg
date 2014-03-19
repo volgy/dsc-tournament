@@ -46,7 +46,7 @@
 <g id="group_a" transform="translate(0, 0)">
     <rect x="30" y="39" width="78" height="22" class="group-box"  />
         <text x="38" y="55" class="group">GROUP A</text>
-        <text id="group_a_progress" x="120" y="55" class="progress">0 / 3</text>
+        <text id="group_a_progress" x="120" y="55" class="progress">0 / 1</text>
 
     <rect x="30" y="61" width="118" height="22" class="team-box-preliminaries" />
         <text id="group_a_team0" x="38" y="77" class="team"></text>
@@ -109,7 +109,7 @@
 <g id="group_d" transform="translate(0, 279)">
     <rect x="30" y="39" width="78" height="22" class="group-box"  />
         <text x="38" y="55" class="group">GROUP D</text>
-        <text id="group_d_progress" x="120" y="55" class="progress">0 / 3</text>
+        <text id="group_d_progress" x="120" y="55" class="progress">0 / 1</text>
 
     <rect x="30" y="61" width="118" height="22" class="team-box-preliminaries" />
         <text id="group_d_team0" x="38" y="77" class="team"></text>
