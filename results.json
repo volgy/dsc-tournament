@@ -51,7 +51,7 @@
         ],
         "group_def2" : [
             {"Wireless Infidels": [{"Xp": 0}, {"Yp": 0}], "KPE": [{"Xp": 9755}, {"Yp": 9497}]},
-            {"Wireless Infidels": [{"Xp": null}, {"Yp": null}], "Wildcats": [{"Xp": null}, {"Yp": null}]}
+            {"Wireless Infidels": [{"Xp": 1310}, {"Yp": null}], "Wildcats": [{"Xp": 7721}, {"Yp": null}]}
         ],
         "group_g" : [
         ],
