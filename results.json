@@ -28,8 +28,10 @@
             {"WSL-NEU": [{"Xs": 38}, {"Ys": 15000}], "Orange WiWar": [{"Ys": 15000}, {"Xs": 2991}]}
         ],
         "group_c" : [
+            {"Gator Wings": [{"Xp": 15000}, {"Yp": null}], "wasabi": [{"Yp": 10859}, {"Xp": null}]}
         ],
         "group_d" : [
+            {"Efficient Spectrum": [{"Xs": null}, {"Ys": null}], "Wireless Infidels": [{"Ys": null}, {"Xs": null}]}
         ],
         "group_e" : [
         ],

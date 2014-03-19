@@ -59,9 +59,9 @@
         <text id="group_a_score1" x="192" y="99" class="score"></text>
 
     <rect x="30" y="105" width="118" height="22"  class="team-box-preliminaries" />
-        <text id="group_a_team2" x="38" y="121" class="team"></text>
+        <text id="group_a_team2" x="38" y="121" class="team">n/a</text>
     <rect x="148" y="105" width="52" height="22" class="score-box-preliminaries" />
-        <text id="group_a_score2" x="192" y="121" class="score"></text>
+        <text id="group_a_score2" x="192" y="121" class="score">-</text>
 </g>
 
 <g id="group_b" transform="translate(0, 93)">
@@ -122,9 +122,9 @@
         <text id="group_d_score1" x="192" y="99" class="score"></text>
 
     <rect x="30" y="105" width="118" height="22"  class="team-box-preliminaries" />
-        <text id="group_d_team2" x="38" y="121" class="team"></text>
+        <text id="group_d_team2" x="38" y="121" class="team">n/a</text>
     <rect x="148" y="105" width="52" height="22" class="score-box-preliminaries" />
-        <text id="group_d_score2" x="192" y="121" class="score"></text>
+        <text id="group_d_score2" x="192" y="121" class="score">-</text>
 </g>
 
 <g id="group_e" transform="translate(0, 372)">
@@ -164,9 +164,9 @@
         <text id="group_f_score1" x="192" y="99" class="score"></text>
 
     <rect x="30" y="105" width="118" height="22"  class="team-box-preliminaries" />
-        <text id="group_f_team2" x="38" y="121" class="team"></text>
+        <text id="group_f_team2" x="38" y="121" class="team">n/a</text>
     <rect x="148" y="105" width="52" height="22" class="score-box-preliminaries" />
-        <text id="group_f_score2" x="192" y="121" class="score"></text>
+        <text id="group_f_score2" x="192" y="121" class="score">-</text>
 </g>
 
 
