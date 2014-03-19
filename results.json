@@ -30,7 +30,7 @@
         "group_d" : [
         ],
         "group_e" : [
-            {"MarmotE": [1,1], "VT-CogRad": [1,1]},
+            {"MarmotE": [], "VT-CogRad": []},
             {"MarmotE": [], "KPE": []},
             {"KPE": [], "VT-CogRad": []}
         ],
