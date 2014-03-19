@@ -64,7 +64,8 @@
             {"Winbot": {"Ap": 5514}, "WSL-NEU": {"Bp": 13189}, "Note Spectrum": {"Cp": 5082}}
         ],
         "group_c" : [
-            {"Efficient Spectrum": {"As": 15000}, "VT-Hume": {"Bs": 3738}, "Orange WiWar": {"Cs": 3457}}
+            {"Efficient Spectrum": {"As": 15000}, "VT-Hume": {"Bs": 3738}, "Orange WiWar": {"Cs": 3457}},
+            {"VT-Hume": {"As": 3793}, "Efficient Spectrum": {"Bs": 15000}, "KPE": {"Cs": 11840}}
         ],
         "group_d" : [
             {"Purdue": {"Ap": 2614}, "Wasabi": {"Bp": 4362}, "VT-CogRad": {"Cp": 7729}}
