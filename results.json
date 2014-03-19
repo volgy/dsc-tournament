@@ -22,7 +22,7 @@
 
     "comp" : {
         "group_a" : [
-            {"Purdue": [], "GTRI": []}
+            {"Purdue": [{"Xp": 2300} ], "GTRI": [{"Yp": 15000}]}
         ],
         "group_b" : [
         ],
