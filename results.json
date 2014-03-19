@@ -68,7 +68,8 @@
         "group_c" : [
             {"Efficient Spectrum": {"As": 15000}, "VT-Hume": {"Bs": 3738}, "Orange WiWar": {"Cs": 3457}},
             {"VT-Hume": {"As": 3793}, "Efficient Spectrum": {"Bs": 15000}, "KPE": {"Cs": 11840}},
-            {"Orange WiWar": {"As": 6003}, "KPE": {"Bs": 8943}, "VT-Hume": {"Cs": 3155}}
+            {"Orange WiWar": {"As": 6003}, "KPE": {"Bs": 8943}, "VT-Hume": {"Cs": 3155}},
+            {"KPE": {"As": 4306}, "Orange WiWar": {"Bs": 1259}, "Efficient Spectrum": {"Cs": 3520}}
         ],
         "group_d" : [
             {"Purdue": {"Ap": 2614}, "Wasabi": {"Bp": 4362}, "VT-CogRad": {"Cp": 7729}},
