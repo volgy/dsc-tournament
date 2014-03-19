@@ -71,12 +71,12 @@
         ],
         "group_d" : [
             {"Purdue": {"Ap": 2614}, "Wasabi": {"Bp": 4362}, "VT-CogRad": {"Cp": 7729}},
-            {"Wasabi": {"Ap": 4370}, "Purdue": {"Bp": 2602}, "Tenn Tech Tel": {"Cp": 14181}}
+            {"Wasabi": {"Ap": 4370}, "Purdue": {"Bp": 2602}, "Tenn Tech Tel": {"Cp": 14181}},
+            {"VT-CogRad": {"Ap": 7477}, "Tenn Tech Tel": {"Bp": 8449}, "Wasabi": {"Cp": 2899}}
         ],
         "group_e" : [
             {"MarmotE": {"As": 0}, "Gator Wings": {"Bs": 3343}, "GTRI": {"Cs": 15000}},
             {"Gator Wings": {"As": 12298}, "MarmotE": {"Bs": 15000}, "Wildcats": {"Cs": 5817}}
-
         ],
         "group_f" : [
         ],
