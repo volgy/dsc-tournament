@@ -97,9 +97,13 @@
                         teamElement.text(teamArray[i].team);
                         comp.find('#' + group + '_score' + i).text(teamArray[i].score);
                     }
+                    
+                    var progress = comp.find('#' + group + '_progress');
+                    var newProgress = progress.text().replace(/(\d+)\s*\/\s*(\d+)/, matches.length + " / $2");
+                    progress.text(newProgress)
                 });
 
-
+                // TODO: too much copy&paste here
                 $.each(r.coop, function (group, matches) {
                     var teams = {};
                     $.each(matches, function (matchidx, match) {
@@ -134,6 +138,9 @@
                         coop.find('#' + group + '_score' + i).text(teamArray[i].score);
                     }
 
+                    var progress = coop.find('#' + group + '_progress');
+                    var newProgress = progress.text().replace(/(\d+)\s*\/\s*(\d+)/, matches.length + " / $2");
+                    progress.text(newProgress)
                 });
             }
         </script>
