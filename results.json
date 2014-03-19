@@ -1,0 +1,23 @@
+{
+    "teams" : [
+        "MarmotE",
+        "Buzz Radio",
+        "Efficient Spectrum"
+    ],
+
+
+    "comp" : {
+        "group_a" : [
+            {"MarmotE": [15000, 15000], "Efficient Spectrum": [3000, 4000]},
+            {"MarmotE": [15000, 15000], "Buzz Radio": [100, 200]},
+            {"Buzz Radio": [400, 800], "Efficient Spectrum": [8000, 9000]}
+        ]
+    },
+
+
+    "coop" : {
+        "group_b" : [
+            {"MarmotE": 15000, "Efficient Spectrum": 3000, "Buzz Radio": 1000}
+        ]
+    }
+}

@@ -12,13 +12,18 @@
     <body>
         <h1 style="font-family: 'Roboto Condensed'; font-weight: 700;">DARPA Spectrum Challenge - Final Tournament</h1>
 
-        <table border="0">
+        <table id="results" border="0" style="width:100%;">
+            <tr><td colspan="2">
+                <span style="font-family: 'Roboto Condensed'; font-weight: 300;">Last updated: 
+                    <span id="timestamp">please wait...</span>
+                </span>
+            </td></tr>
             <tr>
-                <td>
+                <td style="width:820px">
                     <h2 style="font-family: 'Roboto Condensed'; font-weight: 400;">Competitive</h1>
                     <object id="comp-object" type="image/svg+xml" width="800" height="600" data="comp.svg"><span/></object>
                 </td>
-                <td rowspan="2" data-twttr-id="twttr-sandbox-0" style="vertical-align: top;width: 400px;">
+                <td rowspan="2" data-twttr-id="twttr-sandbox-0" style="vertical-align: top">
                     <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/volgy" data-widget-id="445600969053593600">Tweets by @volgy</a>
                 </td>
             </tr>
@@ -31,27 +36,105 @@
         </table>
         
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <!-- <script src="jquery-1.11.0.min.js"></script> -->
+
         <script>
-            $(document).ready(function() {
+            $(window).load(function() {
                 // assisting jQuery
-                window.comp = $(document.getElementById('comp-object').contentDocument.getElementById('comp-svg'));
+                window.comp = $(document.getElementById('comp-object').contentDocument);
+                window.coop = $(document.getElementById('coop-object').contentDocument);
                 updater();
             });
 
             function updater() {
-                $.getJSON('comp.json')
+                $.getJSON('results.json')
                     .done(function( data, textStatus, jqXHR ) {
-                        var last = comp.data('last')
+                        var last = $('#results').data('last')
                         var now = jqXHR.getResponseHeader('Last-Modified');
                         if (last !== now) {
-                            console.log('UPDATE');
-                            comp.data('last', now)
-                            comp.find('#group_a_team1').text('haha');
+                            updateResults(data);
+                            $('#results').data('last', now)
+                            $('#timestamp').text(new Date(now));
                         }
                     })
                     .always(function() {
                         setTimeout(updater, 1000);
+
                     });
+            }
+
+            function updateResults(r) {
+                $.each(r.comp, function (group, matches) {
+                    var teams = {};
+                    $.each(matches, function (matchidx, match) {
+                        $.each(match, function (team, scores) {
+                            if (scores.length !== 2) {
+                                console.warn("Competitive score problem in " + group + 
+                                    " at match #" + matchidx + " for team " + team);
+                            }
+                            $.each(scores, function (scoreidx, score) {
+                                if (teams.hasOwnProperty(team)) {
+                                    teams[team] += score;
+                                }
+                                else {
+                                    teams[team] = score;
+                                }
+                            });
+                        });
+                    });
+
+                    var teamArray = $.map(teams, function (value, key) {
+                        return {team: key, score: value};
+                    });
+                    teamArray.sort(function (a, b) {
+                        return a.score < b.score;
+                    });
+                    for (var i = 0; i < teamArray.length; i++) {
+                        var teamElement = comp.find('#' + group + '_team' + i);
+                        if (teamElement.length < 1) {
+                            console.warn("Competitive team overflow in " + group);
+                        }
+                        teamElement.text(teamArray[i].team);
+                        comp.find('#' + group + '_score' + i).text(teamArray[i].score);
+                    }
+                });
+
+
+                $.each(r.coop, function (group, matches) {
+                    var teams = {};
+                    $.each(matches, function (matchidx, match) {
+                        $.each(match, function (team, score) {
+                            var maxOther = 0;
+                            $.each(match, function (otherTeam, otherScore) {
+                                if (otherTeam !== team) {
+                                    maxOther = Math.max(maxOther, otherScore);
+                                }
+                            });
+                            if (teams.hasOwnProperty(team)) {
+                                teams[team] += score + maxOther;
+                            }
+                            else {
+                                teams[team] = score + maxOther;
+                            }
+                        });
+                    });
+
+                    var teamArray = $.map(teams, function (value, key) {
+                        return {team: key, score: value};
+                    });
+                    teamArray.sort(function (a, b) {
+                        return a.score < b.score;
+                    });
+                    for (var i = 0; i < teamArray.length; i++) {
+                        var teamElement = coop.find('#' + group + '_team' + i);
+                        if (teamElement.length < 1) {
+                            console.warn("Cooperative team overflow in " + group);
+                        }
+                        teamElement.text(teamArray[i].team);
+                        coop.find('#' + group + '_score' + i).text(teamArray[i].score);
+                    }
+
+                });
             }
         </script>
 

@@ -46,127 +46,127 @@
 <g id="group_a" transform="translate(0, 0)">
     <rect x="30" y="39" width="78" height="22" class="group-box"  />
         <text x="38" y="55" class="group">GROUP A</text>
-        <text id="group_a_progress" x="120" y="55" class="progress">0 / 4</text>
+        <text id="group_a_progress" x="120" y="55" class="progress">0 / 3</text>
 
     <rect x="30" y="61" width="118" height="22" class="team-box-preliminaries" />
-        <text id="group_a_team1" x="38" y="77" class="team">Efficient Spectrum</text>
+        <text id="group_a_team0" x="38" y="77" class="team"></text>
     <rect x="148" y="61" width="52" height="22" class="score-box-preliminaries" />
-        <text id="group_a_score1" x="192" y="77" class="score">0</text>
+        <text id="group_a_score0" x="192" y="77" class="score"></text>
 
     <rect x="30" y="83" width="118" height="22"  class="team-box-preliminaries" />
-        <text id="group_a_team2" x="38" y="99" class="team">Efficient Spectrum</text>
+        <text id="group_a_team1" x="38" y="99" class="team"></text>
     <rect x="148" y="83" width="52" height="22" class="score-box-preliminaries" />
-        <text id="group_a_score2" x="192" y="99" class="score">0</text>
+        <text id="group_a_score1" x="192" y="99" class="score"></text>
 
     <rect x="30" y="105" width="118" height="22"  class="team-box-preliminaries" />
-        <text id="group_a_team3" x="38" y="121" class="team">Efficient Spectrum</text>
+        <text id="group_a_team2" x="38" y="121" class="team"></text>
     <rect x="148" y="105" width="52" height="22" class="score-box-preliminaries" />
-        <text id="group_a_score3" x="192" y="121" class="score">0</text>
+        <text id="group_a_score2" x="192" y="121" class="score"></text>
 </g>
 
 <g id="group_b" transform="translate(0, 93)">
     <rect x="30" y="39" width="78" height="22" class="group-box"  />
         <text x="38" y="55" class="group">GROUP B</text>
-        <text id="group_b_progress" x="120" y="55" class="progress">0 / 4</text>
+        <text id="group_b_progress" x="120" y="55" class="progress">0 / 3</text>
 
     <rect x="30" y="61" width="118" height="22" class="team-box-preliminaries" />
-        <text id="group_b_team1" x="38" y="77" class="team">Efficient Spectrum</text>
+        <text id="group_b_team0" x="38" y="77" class="team"></text>
     <rect x="148" y="61" width="52" height="22" class="score-box-preliminaries" />
-        <text id="group_b_score1" x="192" y="77" class="score">0</text>
+        <text id="group_b_score0" x="192" y="77" class="score"></text>
 
     <rect x="30" y="83" width="118" height="22"  class="team-box-preliminaries" />
-        <text id="group_b_team2" x="38" y="99" class="team">Efficient Spectrum</text>
+        <text id="group_b_team1" x="38" y="99" class="team"></text>
     <rect x="148" y="83" width="52" height="22" class="score-box-preliminaries" />
-        <text id="group_b_score2" x="192" y="99" class="score">0</text>
+        <text id="group_b_score1" x="192" y="99" class="score"></text>
 
     <rect x="30" y="105" width="118" height="22"  class="team-box-preliminaries" />
-        <text id="group_b_team3" x="38" y="121" class="team">Efficient Spectrum</text>
+        <text id="group_b_team2" x="38" y="121" class="team"></text>
     <rect x="148" y="105" width="52" height="22" class="score-box-preliminaries" />
-        <text id="group_b_score3" x="192" y="121" class="score">0</text>
+        <text id="group_b_score2" x="192" y="121" class="score"></text>
 </g>
 
 <g id="group_c" transform="translate(0, 186)">
     <rect x="30" y="39" width="78" height="22" class="group-box"  />
         <text x="38" y="55" class="group">GROUP C</text>
-        <text id="group_c_progress" x="120" y="55" class="progress">0 / 4</text>
+        <text id="group_c_progress" x="120" y="55" class="progress">0 / 3</text>
 
     <rect x="30" y="61" width="118" height="22" class="team-box-preliminaries" />
-        <text id="group_c_team1" x="38" y="77" class="team">Efficient Spectrum</text>
+        <text id="group_c_team0" x="38" y="77" class="team"></text>
     <rect x="148" y="61" width="52" height="22" class="score-box-preliminaries" />
-        <text id="group_c_score1" x="192" y="77" class="score">0</text>
+        <text id="group_c_score0" x="192" y="77" class="score"></text>
 
     <rect x="30" y="83" width="118" height="22"  class="team-box-preliminaries" />
-        <text id="group_c_team2" x="38" y="99" class="team">Efficient Spectrum</text>
+        <text id="group_c_team1" x="38" y="99" class="team"></text>
     <rect x="148" y="83" width="52" height="22" class="score-box-preliminaries" />
-        <text id="group_c_score2" x="192" y="99" class="score">0</text>
+        <text id="group_c_score1" x="192" y="99" class="score"></text>
 
     <rect x="30" y="105" width="118" height="22"  class="team-box-preliminaries" />
-        <text id="group_c_team3" x="38" y="121" class="team">Efficient Spectrum</text>
+        <text id="group_c_team2" x="38" y="121" class="team"></text>
     <rect x="148" y="105" width="52" height="22" class="score-box-preliminaries" />
-        <text id="group_c_score3" x="192" y="121" class="score">0</text>
+        <text id="group_c_score2" x="192" y="121" class="score"></text>
 </g>
 
 <g id="group_d" transform="translate(0, 279)">
     <rect x="30" y="39" width="78" height="22" class="group-box"  />
         <text x="38" y="55" class="group">GROUP D</text>
-        <text id="group_d_progress" x="120" y="55" class="progress">0 / 4</text>
+        <text id="group_d_progress" x="120" y="55" class="progress">0 / 3</text>
 
     <rect x="30" y="61" width="118" height="22" class="team-box-preliminaries" />
-        <text id="group_d_team1" x="38" y="77" class="team">Efficient Spectrum</text>
+        <text id="group_d_team0" x="38" y="77" class="team"></text>
     <rect x="148" y="61" width="52" height="22" class="score-box-preliminaries" />
-        <text id="group_d_score1" x="192" y="77" class="score">0</text>
+        <text id="group_d_score0" x="192" y="77" class="score"></text>
 
     <rect x="30" y="83" width="118" height="22"  class="team-box-preliminaries" />
-        <text id="group_d_team2" x="38" y="99" class="team">Efficient Spectrum</text>
+        <text id="group_d_team1" x="38" y="99" class="team"></text>
     <rect x="148" y="83" width="52" height="22" class="score-box-preliminaries" />
-        <text id="group_d_score2" x="192" y="99" class="score">0</text>
+        <text id="group_d_score1" x="192" y="99" class="score"></text>
 
     <rect x="30" y="105" width="118" height="22"  class="team-box-preliminaries" />
-        <text id="group_d_team3" x="38" y="121" class="team">Efficient Spectrum</text>
+        <text id="group_d_team2" x="38" y="121" class="team"></text>
     <rect x="148" y="105" width="52" height="22" class="score-box-preliminaries" />
-        <text id="group_d_score3" x="192" y="121" class="score">0</text>
+        <text id="group_d_score2" x="192" y="121" class="score"></text>
 </g>
 
 <g id="group_e" transform="translate(0, 372)">
     <rect x="30" y="39" width="78" height="22" class="group-box"  />
         <text x="38" y="55" class="group">GROUP E</text>
-        <text id="group_e_progress" x="120" y="55" class="progress">0 / 4</text>
+        <text id="group_e_progress" x="120" y="55" class="progress">0 / 3</text>
 
     <rect x="30" y="61" width="118" height="22" class="team-box-preliminaries" />
-        <text id="group_e_team1" x="38" y="77" class="team">Efficient Spectrum</text>
+        <text id="group_e_team0" x="38" y="77" class="team"></text>
     <rect x="148" y="61" width="52" height="22" class="score-box-preliminaries" />
-        <text id="group_e_score1" x="192" y="77" class="score">0</text>
+        <text id="group_e_score0" x="192" y="77" class="score"></text>
 
     <rect x="30" y="83" width="118" height="22"  class="team-box-preliminaries" />
-        <text id="group_e_team2" x="38" y="99" class="team">Efficient Spectrum</text>
+        <text id="group_e_team1" x="38" y="99" class="team"></text>
     <rect x="148" y="83" width="52" height="22" class="score-box-preliminaries" />
-        <text id="group_e_score2" x="192" y="99" class="score">0</text>
+        <text id="group_e_score1" x="192" y="99" class="score"></text>
 
     <rect x="30" y="105" width="118" height="22"  class="team-box-preliminaries" />
-        <text id="group_e_team3" x="38" y="121" class="team">Efficient Spectrum</text>
+        <text id="group_e_team2" x="38" y="121" class="team"></text>
     <rect x="148" y="105" width="52" height="22" class="score-box-preliminaries" />
-        <text id="group_e_score3" x="192" y="121" class="score">0</text>
+        <text id="group_e_score2" x="192" y="121" class="score"></text>
 </g>
 
 <g id="group_f" transform="translate(0, 465)">
     <rect x="30" y="39" width="78" height="22" class="group-box"  />
         <text x="38" y="55" class="group">GROUP F</text>
-        <text id="group_f_progress" x="120" y="55" class="progress">0 / 4</text>
+        <text id="group_f_progress" x="120" y="55" class="progress">0 / 3</text>
 
     <rect x="30" y="61" width="118" height="22" class="team-box-preliminaries" />
-        <text id="group_f_team1" x="38" y="77" class="team">Efficient Spectrum</text>
+        <text id="group_f_team0" x="38" y="77" class="team"></text>
     <rect x="148" y="61" width="52" height="22" class="score-box-preliminaries" />
-        <text id="group_f_score1" x="192" y="77" class="score">0</text>
+        <text id="group_f_score0" x="192" y="77" class="score"></text>
 
     <rect x="30" y="83" width="118" height="22"  class="team-box-preliminaries" />
-        <text id="group_f_team2" x="38" y="99" class="team">Efficient Spectrum</text>
+        <text id="group_f_team1" x="38" y="99" class="team"></text>
     <rect x="148" y="83" width="52" height="22" class="score-box-preliminaries" />
-        <text id="group_f_score2" x="192" y="99" class="score">0</text>
+        <text id="group_f_score1" x="192" y="99" class="score"></text>
 
     <rect x="30" y="105" width="118" height="22"  class="team-box-preliminaries" />
-        <text id="group_f_team3" x="38" y="121" class="team">Efficient Spectrum</text>
+        <text id="group_f_team2" x="38" y="121" class="team"></text>
     <rect x="148" y="105" width="52" height="22" class="score-box-preliminaries" />
-        <text id="group_f_score3" x="192" y="121" class="score">0</text>
+        <text id="group_f_score2" x="192" y="121" class="score"></text>
 </g>
 
 
@@ -174,43 +174,43 @@
 <g id="group_abc2" transform="translate(232, 138)">
     <rect x="30" y="39" width="78" height="22" class="group-box"  />
         <text x="32" y="55" class="group">GROUP ABC2</text>
-        <text id="group_abc2_progress" x="120" y="55" class="progress">0 / 4</text>
+        <text id="group_abc2_progress" x="120" y="55" class="progress">0 / 3</text>
 
     <rect x="30" y="61" width="118" height="22" class="team-box-presemifinals" />
-        <text id="group_abc2_team1" x="38" y="77" class="team">Efficient Spectrum</text>
+        <text id="group_abc2_team0" x="38" y="77" class="team"></text>
     <rect x="148" y="61" width="52" height="22" class="score-box-presemifinals" />
-        <text id="group_abc2_score1" x="192" y="77" class="score">0</text>
+        <text id="group_abc2_score0" x="192" y="77" class="score"></text>
 
     <rect x="30" y="83" width="118" height="22"  class="team-box-presemifinals" />
-        <text id="group_abc2_team2" x="38" y="99" class="team">Efficient Spectrum</text>
+        <text id="group_abc2_team1" x="38" y="99" class="team"></text>
     <rect x="148" y="83" width="52" height="22" class="score-box-presemifinals" />
-        <text id="group_abc2_score2" x="192" y="99" class="score">0</text>
+        <text id="group_abc2_score1" x="192" y="99" class="score"></text>
 
     <rect x="30" y="105" width="118" height="22"  class="team-box-presemifinals" />
-        <text id="group_abc2_team3" x="38" y="121" class="team">Efficient Spectrum</text>
+        <text id="group_abc2_team2" x="38" y="121" class="team"></text>
     <rect x="148" y="105" width="52" height="22" class="score-box-presemifinals" />
-        <text id="group_abc2_score3" x="192" y="121" class="score">0</text>
+        <text id="group_abc2_score2" x="192" y="121" class="score"></text>
 </g>
 
 <g id="group_def2" transform="translate(232, 323)">
     <rect x="30" y="39" width="78" height="22" class="group-box"  />
         <text x="32" y="55" class="group">GROUP DEF2</text>
-        <text id="group_def2_progress" x="120" y="55" class="progress">0 / 4</text>
+        <text id="group_def2_progress" x="120" y="55" class="progress">0 / 3</text>
 
     <rect x="30" y="61" width="118" height="22" class="team-box-presemifinals" />
-        <text id="group_def2_team1" x="38" y="77" class="team">Efficient Spectrum</text>
+        <text id="group_def2_team0" x="38" y="77" class="team"></text>
     <rect x="148" y="61" width="52" height="22" class="score-box-presemifinals" />
-        <text id="group_def2_score1" x="192" y="77" class="score">0</text>
+        <text id="group_def2_score0" x="192" y="77" class="score"></text>
 
     <rect x="30" y="83" width="118" height="22"  class="team-box-presemifinals" />
-        <text id="group_def2_team2" x="38" y="99" class="team">Efficient Spectrum</text>
+        <text id="group_def2_team1" x="38" y="99" class="team"></text>
     <rect x="148" y="83" width="52" height="22" class="score-box-presemifinals" />
-        <text id="group_def2_score2" x="192" y="99" class="score">0</text>
+        <text id="group_def2_score1" x="192" y="99" class="score"></text>
 
     <rect x="30" y="105" width="118" height="22"  class="team-box-presemifinals" />
-        <text id="group_def2_team3" x="38" y="121" class="team">Efficient Spectrum</text>
+        <text id="group_def2_team2" x="38" y="121" class="team"></text>
     <rect x="148" y="105" width="52" height="22" class="score-box-presemifinals" />
-        <text id="group_def2_score3" x="192" y="121" class="score">0</text>
+        <text id="group_def2_score2" x="192" y="121" class="score"></text>
 </g>
 
 <g id="group_g" transform="translate(440, 24)">
@@ -219,24 +219,24 @@
         <text id="group_g_progress" x="120" y="55" class="progress">0 / 6</text>
 
     <rect x="30" y="61" width="118" height="22" class="team-box-semifinals" />
-        <text id="group_g_team1" x="38" y="77" class="team">Efficient Spectrum</text>
+        <text id="group_g_team0" x="38" y="77" class="team"></text>
     <rect x="148" y="61" width="52" height="22" class="score-box-semifinals" />
-        <text id="group_g_score1" x="192" y="77" class="score">0</text>
+        <text id="group_g_score0" x="192" y="77" class="score"></text>
 
     <rect x="30" y="83" width="118" height="22"  class="team-box-semifinals" />
-        <text id="group_g_team2" x="38" y="99" class="team">Efficient Spectrum</text>
+        <text id="group_g_team1" x="38" y="99" class="team"></text>
     <rect x="148" y="83" width="52" height="22" class="score-box-semifinals" />
-        <text id="group_g_score2" x="192" y="99" class="score">0</text>
+        <text id="group_g_score1" x="192" y="99" class="score"></text>
 
     <rect x="30" y="105" width="118" height="22"  class="team-box-semifinals" />
-        <text id="group_g_team3" x="38" y="121" class="team">Efficient Spectrum</text>
+        <text id="group_g_team2" x="38" y="121" class="team"></text>
     <rect x="148" y="105" width="52" height="22" class="score-box-semifinals" />
-        <text id="group_g_score3" x="192" y="121" class="score">0</text>
+        <text id="group_g_score2" x="192" y="121" class="score"></text>
 
     <rect x="30" y="127" width="118" height="22"  class="team-box-semifinals" />
-        <text id="group_g_team4" x="38" y="143" class="team">Efficient Spectrum</text>
+        <text id="group_g_team3" x="38" y="143" class="team"></text>
     <rect x="148" y="127" width="52" height="22" class="score-box-semifinals" />
-        <text id="group_g_score4" x="192" y="143" class="score">0</text>
+        <text id="group_g_score3" x="192" y="143" class="score"></text>
 </g>
 
 <g id="group_h" transform="translate(440, 435)">
@@ -245,24 +245,24 @@
         <text id="group_h_progress" x="120" y="55" class="progress">0 / 6</text>
 
     <rect x="30" y="61" width="118" height="22" class="team-box-semifinals" />
-        <text id="group_h_team1" x="38" y="77" class="team">Efficient Spectrum</text>
+        <text id="group_h_team0" x="38" y="77" class="team"></text>
     <rect x="148" y="61" width="52" height="22" class="score-box-semifinals" />
-        <text id="group_h_score1" x="192" y="77" class="score">0</text>
+        <text id="group_h_score0" x="192" y="77" class="score"></text>
 
     <rect x="30" y="83" width="118" height="22"  class="team-box-semifinals" />
-        <text id="group_h_team2" x="38" y="99" class="team">Efficient Spectrum</text>
+        <text id="group_h_team1" x="38" y="99" class="team"></text>
     <rect x="148" y="83" width="52" height="22" class="score-box-semifinals" />
-        <text id="group_h_score2" x="192" y="99" class="score">0</text>
+        <text id="group_h_score1" x="192" y="99" class="score"></text>
 
     <rect x="30" y="105" width="118" height="22"  class="team-box-semifinals" />
-        <text id="group_h_team3" x="38" y="121" class="team">Efficient Spectrum</text>
+        <text id="group_h_team2" x="38" y="121" class="team"></text>
     <rect x="148" y="105" width="52" height="22" class="score-box-semifinals" />
-        <text id="group_h_score3" x="192" y="121" class="score">0</text>
+        <text id="group_h_score2" x="192" y="121" class="score"></text>
 
     <rect x="30" y="127" width="118" height="22"  class="team-box-semifinals" />
-        <text id="group_h_team4" x="38" y="143" class="team">Efficient Spectrum</text>
+        <text id="group_h_team3" x="38" y="143" class="team"></text>
     <rect x="148" y="127" width="52" height="22" class="score-box-semifinals" />
-        <text id="group_h_score4" x="192" y="143" class="score">0</text>
+        <text id="group_h_score3" x="192" y="143" class="score"></text>
 </g>
 
 
@@ -272,14 +272,14 @@
         <text id="group_finals_progress" x="120" y="55" class="progress">0 / 1</text>
 
     <rect x="30" y="61" width="118" height="22" class="team-box-finals" />
-        <text id="group_finals_team1" x="38" y="77" class="team">Efficient Spectrum</text>
+        <text id="group_finals_team0" x="38" y="77" class="team"></text>
     <rect x="148" y="61" width="52" height="22" class="score-box-finals" />
-        <text id="group_finals_score1" x="192" y="77" class="score">0</text>
+        <text id="group_finals_score0" x="192" y="77" class="score"></text>
 
     <rect x="30" y="83" width="118" height="22"  class="team-box-finals" />
-        <text id="group_finals_team2" x="38" y="99" class="team">Efficient Spectrum</text>
+        <text id="group_finals_team1" x="38" y="99" class="team"></text>
     <rect x="148" y="83" width="52" height="22" class="score-box-finals" />
-        <text id="group_finals_score2" x="192" y="99" class="score">0</text>
+        <text id="group_finals_score1" x="192" y="99" class="score"></text>
 </g>
 
 
