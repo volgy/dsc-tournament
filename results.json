@@ -22,9 +22,10 @@
 
     "comp" : {
         "group_a" : [
-            {"Purdue": [{"Xp": 2300}, {"Yp": 2610} ], "GTRI": [{"Yp": 15000}, {"Xp": 15000}]}
+            {"Purdue": [{"Xp": 2300}, {"Yp": 2610}], "GTRI": [{"Yp": 15000}, {"Xp": 15000}]}
         ],
         "group_b" : [
+            {"WSL-NEU": [{"Xs": 38}, {"Ys": null}], "Orange WiWar": [{"Ys": 15000}, {"Xs": null}]}
         ],
         "group_c" : [
         ],
