@@ -49,7 +49,7 @@
             {"Purdue": [{"Xs": 1616}, {"Ys": 2743}], "WSL-NEU": [{"Ys": 15000}, {"Xs": 2039}]}
         ],
         "group_def2" : [
-            {"Wireless Infidels": [{"Xp": 0}, {"Yp": null}], "KPE": [{"Xp": 9755}, {"Yp": null}]}
+            {"Wireless Infidels": [{"Xp": 0}, {"Yp": 0}], "KPE": [{"Xp": 9755}, {"Yp": 9497}]}
         ],
         "group_g" : [
         ],
