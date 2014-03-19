@@ -63,16 +63,34 @@
                     });
             }
 
+            function sanitizeScore(score) {
+                if (typeof(score) === 'object') {
+                    var keys = Object.keys(score);
+                    if (keys.length != 1) {
+                        return null;
+                    }
+                    else {
+                        return score[keys[0]];
+                    }
+                }
+                return score;
+            }
+
             function updateResults(r) {
                 $.each(r.comp, function (group, matches) {
                     var teams = {};
                     $.each(matches, function (matchidx, match) {
                         $.each(match, function (team, scores) {
                             if (scores.length !== 2) {
-                                console.warn("Competitive score problem in " + group + 
+                                console.warn("Competitive number of scores problem in " + group + 
                                     " at match #" + matchidx + " for team " + team);
                             }
                             $.each(scores, function (scoreidx, score) {
+                                score = sanitizeScore(score);
+                                if (score === null) {
+                                    console.warn("Competitive score format problem in " + group + 
+                                        " at match #" + matchidx + " for team " + team);
+                                }
                                 if (teams.hasOwnProperty(team)) {
                                     teams[team] += score;
                                 }
@@ -108,10 +126,15 @@
                     var teams = {};
                     $.each(matches, function (matchidx, match) {
                         $.each(match, function (team, score) {
+                            score = sanitizeScore(score);
+                            if (score === null) {
+                                console.warn("Cooperative score format problem in " + group + 
+                                    " at match #" + matchidx + " for team " + team);
+                            }
                             var maxOther = 0;
                             $.each(match, function (otherTeam, otherScore) {
                                 if (otherTeam !== team) {
-                                    maxOther = Math.max(maxOther, otherScore);
+                                    maxOther = Math.max(maxOther, sanitizeScore(otherScore));
                                 }
                             });
                             if (teams.hasOwnProperty(team)) {
