@@ -26,7 +26,7 @@
         ],
         "group_b" : [
             {"WSL-NEU": [{"Xs": 38}, {"Ys": 15000}], "Orange WiWar": [{"Ys": 15000}, {"Xs": 2991}]},
-            {"WSL-NEU": [{"Xs": 15000}, {"Ys": null}], "Tenn Tech Tel": [{"Ys": 3780}, {"Xs": null}]}
+            {"WSL-NEU": [{"Xs": 15000}, {"Ys": 15000}], "Tenn Tech Tel": [{"Ys": 3780}, {"Xs": 4070}]}
 
         ],
         "group_c" : [
