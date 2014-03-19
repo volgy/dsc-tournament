@@ -66,6 +66,7 @@
             {"Efficient Spectrum": {"As": 15000}, "VT-Hume": {"Bs": 3738}, "Orange WiWar": {"Cs": 3457}}
         ],
         "group_d" : [
+            {"Purdue": {"Ap": 2614}, "Wasabi": {"Bp": 4362}, "VT-CogRad": {"Cp": 7729}}
         ],
         "group_e" : [
         ],
