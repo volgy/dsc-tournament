@@ -37,6 +37,7 @@
             {"MarmotE": [{"Xp": 15000}, {"Yp": 15000}], "VT-CogRad": [{"Yp": 1009}, {"Xp": 0}]}
         ],
         "group_f" : [
+            {"VT-Hume": [{"Xs": 703}, {"Ys": null}], "Wildcats": [{"Ys": 23}, {"Xs": null}]}
         ],
         "group_abc2" : [
         ],
