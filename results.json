@@ -60,7 +60,8 @@
 
     "coop" : {
         "group_b" : [
-            {"WSL-NEU": {"Ap": 12510}, "Winbot": {"Bp": 6480}, "Wireless Infidels": {"Cp": 1656}}
+            {"WSL-NEU": {"Ap": 12510}, "Winbot": {"Bp": 6480}, "Wireless Infidels": {"Cp": 1656}},
+            {"Winbot": {"Ap": 5514}, "WSL-NEU": {"Bp": 13189}, "Note Spectrum": {"Cp": 5082}}
         ],
         "group_c" : [
             {"Efficient Spectrum": {"As": 15000}, "VT-Hume": {"Bs": 3738}, "Orange WiWar": {"Cs": 3457}}
