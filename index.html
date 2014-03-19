@@ -134,7 +134,10 @@
                             var maxOther = 0;
                             $.each(match, function (otherTeam, otherScore) {
                                 if (otherTeam !== team) {
+                                    // New scoring logic
                                     maxOther = Math.max(maxOther, sanitizeScore(otherScore));
+                                    // Original scoring logic
+                                    //maxOther += sanitizeScore(otherScore);
                                 }
                             });
                             if (teams.hasOwnProperty(team)) {
