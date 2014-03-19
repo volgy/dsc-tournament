@@ -23,7 +23,28 @@
     "comp" : {
         "group_a" : [
         ],
+        "group_b" : [
+        ],
+        "group_c" : [
+        ],
+        "group_d" : [
+        ],
+        "group_e" : [
+            {"MarmotE": [], "VT-CogRad": []},
+            {"MarmotE": [], "KPE": []},
+            {"KPE": [], "VT-CogRad": []},
+        ]
+        "group_f" : [
+        ],
         "group_abc2" : [
+        ],
+        "group_def2" : [
+        ],
+        "group_g" : [
+        ],
+        "group_h" : [
+        ],
+        "group_finals" : [
         ]
     },
 
