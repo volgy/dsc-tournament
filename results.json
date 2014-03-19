@@ -61,7 +61,7 @@
     "coop" : {
         "group_b" : [
             {"WSL-NEU": {"Ap": 12510}, "Winbot": {"Bp": 6480}, "Wireless Infidels": {"Cp": 1656}},
-            {"Winbot": {"Ap": 5514}, "WSL-NEU": {"Bp": 13189}, "Note Spectrum": {"Cp": 5082}},
+            {"Winbot": {"Ap": 5514}, "WSL-NEU": {"Bp": 13189}, "Notre Spectrum": {"Cp": 5082}},
             {"Wireless Infidels": {"Ap": 1739}, "Notre Spectrum": {"Bp": 15000}, "Winbot": {"Cp": 8678}}
         ],
         "group_c" : [
