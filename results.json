@@ -68,10 +68,13 @@
             {"VT-Hume": {"As": 3793}, "Efficient Spectrum": {"Bs": 15000}, "KPE": {"Cs": 11840}}
         ],
         "group_d" : [
-            {"Purdue": {"Ap": 2614}, "Wasabi": {"Bp": 4362}, "VT-CogRad": {"Cp": 7729}}
+            {"Purdue": {"Ap": 2614}, "Wasabi": {"Bp": 4362}, "VT-CogRad": {"Cp": 7729}},
+            {"Wasabi": {"Ap": 4370}, "Purdue": {"Bp": 2602}, "Tenn Tech Tel": {"Cp": 14181}}
         ],
         "group_e" : [
-            {"MarmotE": {"As": 0}, "Gator Wings": {"Bs": 3343}, "GTRI": {"Cs": 15000}}
+            {"MarmotE": {"As": 0}, "Gator Wings": {"Bs": 3343}, "GTRI": {"Cs": 15000}},
+            {"Gator Wings": {"As": null}, "MarmotE": {"Bs": null}, "Wildcats": {"Cs": null}}
+
         ],
         "group_f" : [
         ],
