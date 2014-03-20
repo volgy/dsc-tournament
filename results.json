@@ -56,7 +56,7 @@
         ],
         "group_g" : [
             {"GTRI": [null], "Orange WiWar": [null], "Gator Wings": [null], "KPE": [null]},
-            {"GTRI": [{"Xs": 9712}, {"Ys": null}], "Orange WiWar": [{"Ys": 15000}, {"Xs": null}]}
+            {"GTRI": [{"Xs": 9712}, {"Ys": 15000}], "Orange WiWar": [{"Ys": 15000}, {"Xs": 2280}]}
         ],
         "group_h" : [
             {"Efficient Spectrum": [null], "MarmotE": [null], "VT-Hume": [null], "Wasabi": [null]},
