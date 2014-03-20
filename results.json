@@ -101,7 +101,8 @@
         ],
         "group_g" : [
             {"Efficient Spectrum": {"As": 12684}, "WSL-NEU": {"Bs": 441}, "Gator Wings": {"Cs": 5219}},
-            {"WSL-NEU": {"As": 15000}, "Efficient Spectrum": {"Bs": 15000}, "Wasabi": {"Cs": 3111}}
+            {"WSL-NEU": {"As": 15000}, "Efficient Spectrum": {"Bs": 15000}, "Wasabi": {"Cs": 3111}},
+            {"Gator Wings": {"As": 720}, "Wasabi": {"Bs": 12}, "WSL-NEU": {"Cs": 15000}}
         ],
         "group_h" : [
         ]
