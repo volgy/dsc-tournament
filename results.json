@@ -55,15 +55,14 @@
             {"KPE": [{"Xp": 9412}, {"Yp": 9317}], "Wildcats": [{"Yp": 12930}, {"Xp": 152}]}
         ],
         "group_g" : [
-            {"GTRI": [null], "Orange WiWar": [null], "Gator Wings": [null], "KPE": [null]},
             {"GTRI": [{"Xs": 9712}, {"Ys": 15000}], "Orange WiWar": [{"Ys": 15000}, {"Xs": 2280}]},
-            {"Gator Wings": [{"Xs": 15000}, {"Ys": 15000}], "KPE": [{"Ys": 8748}, {"Xs": 4130}]}
-
+            {"Gator Wings": [{"Xs": 15000}, {"Ys": 15000}], "KPE": [{"Ys": 8748}, {"Xs": 4130}]},
+            {"GTRI": [{"Xs": 15000}, {"Ys": null}], "Gator Wings": [{"Ys": 5035}, {"Xs": null}]}
         ],
         "group_h" : [
-            {"Efficient Spectrum": [null], "MarmotE": [null], "VT-Hume": [null], "Wasabi": [null]},
             {"Efficient Spectrum": [{"Xp": 4629}, {"Yp": 15000}], "MarmotE": [{"Yp": 15000}, {"Xp": 14998}]},
-            {"VT-Hume": [{"Xp": 891}, {"Yp": 1140}], "Wasabi": [{"Yp": 15000}, {"Xp": 12461}]}
+            {"VT-Hume": [{"Xp": 891}, {"Yp": 1140}], "Wasabi": [{"Yp": 15000}, {"Xp": 12461}]},
+            {"Efficient Spectrum": [{"Xp": null}, {"Yp": null}], "VT-Hume": [{"Yp": null}, {"Xp": null}]}
         ],
         "group_finals" : [
         ]
