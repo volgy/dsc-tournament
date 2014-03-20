@@ -71,7 +71,7 @@
             {"MarmotE": [{"Xp": 15000}, {"Yp": 15000}], "VT-Hume": [{"Yp": 306}, {"Xp": 320}]}
         ],
         "group_finals" : [
-            {"GTRI": [{"Xp": 4686}, {"Yp": null}], "Efficient Spectrum": [{"Yp": 15000}, {"Xp": null}]}
+            {"GTRI": [{"Xp": 4686}, {"Yp": 5226}], "Efficient Spectrum": [{"Yp": 15000}, {"Xp": 15000}]}
         ]
     },
 
