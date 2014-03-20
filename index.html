@@ -46,15 +46,15 @@
                 window.comp = $(document.getElementById('comp-object').contentDocument);
                 window.coop = $(document.getElementById('coop-object').contentDocument);
 
+                /*
                 $().add(window.comp).add(window.coop).find('.group-box').parent()
                     .mouseenter(function (e) {
-                        // $('#tooltip').css("top", (e.documentY-10)+"px").css("left",(e.documentX+10)+"px").show();
-                        //$(this).find('.matches-popup').show();
+                        $(this).find('.matches-popup').css('visibility', 'visible');
                     })
                     .mouseleave(function (e) {
-                        // $('#tooltip').hide();
-                        //$(this).find('.matches-popup').hide();
+                        $(this).find('.matches-popup').css('visibility', 'hidden');
                     });
+                */
                 updater();
             });
 

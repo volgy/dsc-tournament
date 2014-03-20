@@ -36,6 +36,29 @@
     .team-box-finals{fill:#ffd6cc;stroke:#000000;stroke-width:2;}
     .score-box-finals{fill:#ff3300;stroke:#000000;stroke-width:2;}
     .flow-solid{fill:none;stroke:#000000;stroke-width:2;}
+
+    table.matchtable {
+        font-family: 'Roboto Condensed';
+        font-size:14px;
+        color:#333333;
+        border-width: 2px;
+        border-color: #666666;
+        border-collapse: collapse;
+    }
+    table.matchtable th {
+        border-width: 2px;
+        padding: 4px;
+        border-style: solid;
+        border-color: #666666;
+        background-color: #dedede;
+    }
+    table.matchtable td {
+        border-width: 2px;
+        padding: 4px;
+        border-style: solid;
+        border-color: #666666;
+        background-color: #D0D0D0;
+    }
 </style>
 
 <text x="68" y="20" class="stage">Perliminaries</text>
@@ -62,6 +85,16 @@
         <text id="group_a_team2" x="38" y="121" class="team">n/a</text>
     <rect x="148" y="105" width="52" height="22" class="score-box-preliminaries" />
         <text id="group_a_score2" x="192" y="121" class="score">-</text>
+
+
+    <foreignObject class="matches-popup" x="21" y="38" width="200" height="150" visibility="hidden">
+        <body xmlns="http://www.w3.org/1999/xhtml">
+            <table class="matchtable">
+                <tr><td>TestA</td><td>TestB</td></tr>
+            </table>
+        </body>
+    </foreignObject>
+
 </g>
 
 <g id="group_b" transform="translate(0, 93)">
