@@ -62,13 +62,6 @@
         <text id="group_a_team2" x="38" y="121" class="team">n/a</text>
     <rect x="148" y="105" width="52" height="22" class="score-box-preliminaries" />
         <text id="group_a_score2" x="192" y="121" class="score">-</text>
-
-    <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="50" y="50" width="200" height="150">
-        <body xmlns="http://www.w3.org/1999/xhtml">
-            <div xmlns="http://www.w3.org/1999/xhtml"></div>
-        </body>
-    </foreignObject>
-
 </g>
 
 <g id="group_b" transform="translate(0, 93)">
