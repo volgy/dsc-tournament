@@ -95,10 +95,13 @@
             {"Wildcats": {"As": 1398}, "GTRI": {"Bs": 15000}, "MarmotE": {"Cs": 0}}
         ],
         "group_f" : [
-            {"Notre Spectrum": null, "VT-Hume": null, "Tenn Tech Tel": null, "MarmotE": null}
+            {"Notre Spectrum": null, "VT-Hume": null, "Tenn Tech Tel": null, "MarmotE": null},
+            {"Notre Spectrum": {"Ap": 11322}, "VT-Hume": {"Bp": 3755}, "Tenn Tech Tel": {"Cp": 8969}}
+
         ],
         "group_g" : [
-            {"WSL-NEU": null, "Efficient Spectrum": null, "Wasabi": null, "Gator Wings": null}
+            {"WSL-NEU": null, "Efficient Spectrum": null, "Wasabi": null, "Gator Wings": null},
+            {"WSL-NEU": {"As": null}, "Efficient Spectrum": {"Bs": null}, "Wasabi": {"Cs": null}}
         ],
         "group_h" : [
         ]
