@@ -55,10 +55,13 @@
             {"KPE": [{"Xp": 9412}, {"Yp": 9317}], "Wildcats": [{"Yp": 12930}, {"Xp": 152}]}
         ],
         "group_g" : [
-            {"GTRI": [null], "Orange WiWar": [null], "Gator Wings": [null], "KPE": [null]}
+            {"GTRI": [null], "Orange WiWar": [null], "Gator Wings": [null], "KPE": [null]},
+            {"GTRI": [{"Xs": 9712}, {"Ys": null}], "Orange WiWar": [{"Ys": 15000}, {"Xs": null}]}
         ],
         "group_h" : [
-            {"Efficient Spectrum": [null], "MarmotE": [null], "VT-Hume": [null], "Wasabi": [null]}
+            {"Efficient Spectrum": [null], "MarmotE": [null], "VT-Hume": [null], "Wasabi": [null]},
+            {"Efficient Spectrum": [{"Xp": null}, {"Yp": null}], "MarmotE": [{"Yp": null}, {"Xp": null}]}
+
         ],
         "group_finals" : [
         ]
