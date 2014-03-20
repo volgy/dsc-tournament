@@ -36,7 +36,7 @@
                 </td>
             </tr>
         </table>
-        
+
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <!-- <script src="jquery-1.11.0.min.js"></script> -->
 
@@ -45,6 +45,18 @@
                 // assisting jQuery
                 window.comp = $(document.getElementById('comp-object').contentDocument);
                 window.coop = $(document.getElementById('coop-object').contentDocument);
+
+                $().add(window.comp).add(window.coop).find('.group-box').parent()
+                    .mouseenter(function (e) {
+                        // $('#tooltip').css("top", (e.documentY-10)+"px").css("left",(e.documentX+10)+"px").show();
+                        //$(this).find('.matches-popup').show();
+                    })
+                    .mouseleave(function (e) {
+                        // $('#tooltip').hide();
+                        //$(this).find('.matches-popup').hide();
+                    })
+                    .append('<foreignobject><body xmlns="http://www.w3.org/1999/xhtml"><div class="scores-box" style="z-index:10;">TEST</div></body></foreignobject>');
+
                 updater();
             });
 
@@ -116,7 +128,8 @@
                     
                     var progress = comp.find('#' + group + '_progress');
                     var newProgress = progress.text().replace(/([\d\.]+)\s*\/\s*(\d+)/, nValidMatches + " / $2");
-                    progress.text(newProgress)
+                    progress.text(newProgress);
+
                 });
 
 
@@ -167,7 +180,7 @@
                     
                     var progress = coop.find('#' + group + '_progress');
                     var newProgress = progress.text().replace(/([\d\.]+)\s*\/\s*(\d+)/, nValidMatches + " / $2");
-                    progress.text(newProgress)
+                    progress.text(newProgress);
                 });
             }
         </script>

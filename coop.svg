@@ -27,7 +27,7 @@
 <text transform="matrix(1 0 0 1 364.5 21.5)" class="stage">Semifinals</text>
 <text transform="matrix(1 0 0 1 679.5 21.5)" class="stage">Finals</text>
 <g id="group_b">
-	<rect x="23.355" y="41" stroke="#000000" width="78" height="22"/>
+	<rect x="23.355" y="41" class="group-box" width="78" height="22"/>
 	<text transform="matrix(1 0 0 1 31.3555 57)" class="group">GROUP B</text>
 	<text id="group_b_progress" transform="matrix(1 0 0 1 113.3555 57)" class="progress">0 / 4</text>
 	<rect x="23.355" y="63" class="score-box-preliminaries" width="118" height="22"/>
@@ -48,7 +48,7 @@
 	<text id="group_b_score3" transform="matrix(1 0 0 1 184 145)" class="score"></text>
 </g>
 <g id="group_c">
-	<rect x="23.355" y="183.833" stroke="#000000" width="78" height="22"/>
+	<rect x="23.355" y="183.833" class="group-box" width="78" height="22"/>
 	<text transform="matrix(1 0 0 1 31.3555 199.833)" class="group">GROUP C</text>
 	
 		<text id="group_c_progress" transform="matrix(1 0 0 1 113.3555 199.833)" class="progress">0 / 4</text>
@@ -74,7 +74,7 @@
 		<text id="group_c_score3" transform="matrix(1 0 0 1 184 287.833)" class="score"></text>
 </g>
 <g id="group_d">
-	<rect x="23.355" y="326.667" stroke="#000000" width="78" height="22"/>
+	<rect x="23.355" y="326.667" class="group-box" width="78" height="22"/>
 	<text transform="matrix(1 0 0 1 31.3555 342.667)" class="group">GROUP D</text>
 	
 		<text id="group_d_progress" transform="matrix(1 0 0 1 113.3555 342.667)" class="progress">0 / 4</text>
@@ -100,7 +100,7 @@
 		<text id="group_d_score3" transform="matrix(1 0 0 1 184 430.667)" class="score"></text>
 </g>
 <g id="group_e">
-	<rect x="23.355" y="469.5" stroke="#000000" width="78" height="22"/>
+	<rect x="23.355" y="469.5" class="group-box" width="78" height="22"/>
 	<text transform="matrix(1 0 0 1 31.3555 485.5)" class="group">GROUP E</text>
 	<text id="group_e_progress" transform="matrix(1 0 0 1 113.3555 485.5)" class="progress">0 / 4</text>
 	<rect x="23.355" y="491.5" class="score-box-preliminaries" width="118" height="22"/>
@@ -121,7 +121,7 @@
 	<text id="group_e_score3" transform="matrix(1 0 0 1 184 573.5)" class="score"></text>
 </g>
 <g id="group_f">
-	<rect x="312.047" y="112.417" stroke="#000000" width="78" height="22"/>
+	<rect x="312.047" y="112.417" class="group-box" width="78" height="22"/>
 	<text transform="matrix(1 0 0 1 320.0469 128.417)" class="group">GROUP F</text>
 	
 		<text id="group_f_progress" transform="matrix(1 0 0 1 402.0469 128.417)" class="progress">0 / 4</text>
@@ -151,7 +151,7 @@
 		<text id="group_f_score3" transform="matrix(1 0 0 1 472.7 216.417)" class="score"></text>
 </g>
 <g id="group_g">
-	<rect x="312.047" y="398.084" stroke="#000000" width="78" height="22"/>
+	<rect x="312.047" y="398.084" class="group-box" width="78" height="22"/>
 	<text transform="matrix(1 0 0 1 320.0469 414.084)" class="group">GROUP G</text>
 	
 		<text id="group_g_progress" transform="matrix(1 0 0 1 402.0469 414.084)" class="progress">0 / 4</text>
@@ -181,7 +181,7 @@
 		<text id="group_g_score3" transform="matrix(1 0 0 1 472.7 502.084)" class="score"></text>
 </g>
 <g id="group_h">
-	<rect x="616.5" y="255.5" stroke="#000000" width="78" height="22"/>
+	<rect x="616.5" y="255.5" class="group-box" width="78" height="22"/>
 	<text transform="matrix(1 0 0 1 624.5 271.5)" class="group">GROUP H</text>
 	<text id="group_h_progress" transform="matrix(1 0 0 1 706.5 271.5)" class="progress">0 / 4</text>
 	<rect x="616.5" y="277.5" class="team-box-finals" width="118" height="22"/>
