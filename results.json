@@ -62,7 +62,7 @@
         "group_h" : [
             {"Efficient Spectrum": [{"Xp": 4629}, {"Yp": 15000}], "MarmotE": [{"Yp": 15000}, {"Xp": 14998}]},
             {"VT-Hume": [{"Xp": 891}, {"Yp": 1140}], "Wasabi": [{"Yp": 15000}, {"Xp": 12461}]},
-            {"Efficient Spectrum": [{"Xp": null}, {"Yp": null}], "VT-Hume": [{"Yp": null}, {"Xp": null}]}
+            {"Efficient Spectrum": [{"Xp": 15000}, {"Yp": null}], "VT-Hume": [{"Yp": 1099}, {"Xp": null}]}
         ],
         "group_finals" : [
         ]
