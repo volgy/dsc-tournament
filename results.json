@@ -101,7 +101,7 @@
         ],
         "group_g" : [
             {"WSL-NEU": null, "Efficient Spectrum": null, "Wasabi": null, "Gator Wings": null},
-            {"WSL-NEU": {"As": null}, "Efficient Spectrum": {"Bs": null}, "Wasabi": {"Cs": null}}
+            {"WSL-NEU": {"As": 12684}, "Efficient Spectrum": {"Bs": 441}, "Wasabi": {"Cs": 5219}}
         ],
         "group_h" : [
         ]
