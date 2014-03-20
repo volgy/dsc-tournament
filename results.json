@@ -60,7 +60,7 @@
             {"GTRI": [{"Xs": 15000}, {"Ys": 15000}], "Gator Wings": [{"Ys": 5035}, {"Xs": 4915}]},
             {"Orange WiWar": [{"Xs": 13042}, {"Ys": 15000}], "KPE": [{"Ys": 9524}, {"Xs": 1371}]},
             {"GTRI": [{"Xs": 15000}, {"Ys": 15000}], "KPE": [{"Ys": 6638}, {"Xs": 1882}]},
-            {"Orange WiWar": [{"Xs": 11493}, {"Ys": null}], "Gator Wings": [{"Ys": 15000}, {"Xs": null}]}
+            {"Orange WiWar": [{"Xs": 11493}, {"Ys": 15000}], "Gator Wings": [{"Ys": 15000}, {"Xs": 2443}]}
         ],
         "group_h" : [
             {"Efficient Spectrum": [{"Xp": 4629}, {"Yp": 15000}], "MarmotE": [{"Yp": 15000}, {"Xp": 14998}]},
