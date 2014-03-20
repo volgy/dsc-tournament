@@ -99,8 +99,8 @@
             {"VT-Hume": {"Ap": 3993}, "Notre Spectrum": {"Bp": 6413}, "MarmotE": {"Cp": 15000}}
         ],
         "group_g" : [
-            {"WSL-NEU": null, "Efficient Spectrum": null, "Wasabi": null, "Gator Wings": null},
-            {"WSL-NEU": {"As": 12684}, "Efficient Spectrum": {"Bs": 441}, "Wasabi": {"Cs": 5219}}
+            {"Efficient Spectrum": {"As": 12684}, "WSL-NEU": {"Bs": 441}, "Gator Wings": {"Cs": 5219}},
+            {"WSL-NEU": {"As": null}, "Efficient Spectrum": {"Bs": null}, "Wasabi": {"Cs": null}}
         ],
         "group_h" : [
         ]
