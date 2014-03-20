@@ -95,8 +95,8 @@
             {"Wildcats": {"As": 1398}, "GTRI": {"Bs": 15000}, "MarmotE": {"Cs": 0}}
         ],
         "group_f" : [
-            {"Notre Spectrum": {"Ap": 11322}, "VT-Hume": {"Bp": 3755}, "Tenn Tech Tel": {"Cp": 8969}},
-            {"VT-Hume": {"Ap": 3993}, "Notre Spectrum": {"Bp": 6413}, "MarmotE": {"Cp": 15000}}
+            {"VT-Hume": {"Ap": 3993}, "Notre Spectrum": {"Bp": 6413}, "MarmotE": {"Cp": 15000}},
+            {"Tenn Tech Tel": {"Ap": 11425}, "MarmotE": {"Bp": 13046}, "VT-Hume": {"Cp": 4866}}
         ],
         "group_g" : [
             {"Efficient Spectrum": {"As": 12684}, "WSL-NEU": {"Bs": 441}, "Gator Wings": {"Cs": 5219}},
