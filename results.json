@@ -56,8 +56,10 @@
             {"KPE": [{"Xp": 9412}, {"Yp": 9317}], "Wildcats": [{"Yp": 12930}, {"Xp": 152}]}
         ],
         "group_g" : [
+            {"GTRI": [null], "Orange WiWar": [null], "Gator Wings": [null], "Wasabi": [null]}
         ],
         "group_h" : [
+            {"Efficient Spectrum": [null], "MarmotE": [null], "VT-Hume": [null], "Wasabi": [null]}
         ],
         "group_finals" : [
         ]
@@ -90,8 +92,10 @@
             {"Wildcats": {"As": 1398}, "GTRI": {"Bs": 15000}, "MarmotE": {"Cs": 0}}
         ],
         "group_f" : [
+            {"Notre Spectrum": null, "VT-Hume": null, "Tenn Tech Tel": null, "MarmotE": null}
         ],
         "group_g" : [
+            {"WSL-NEU": null, "Efficient Spectrum": null, "Wasabi": null, "Gator Wings": null}
         ],
         "group_h" : [
         ]

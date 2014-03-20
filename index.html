@@ -7,20 +7,22 @@
         <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
 
         <style>
+            h1 {font-family: "Roboto Condensed"; font-weight: 700;}
+            h2 {font-family: 'Roboto Condensed'; font-weight: 400;}
+            .misc {font-family: 'Roboto Condensed'; font-weight: 300;}
         </style>
     </head>
     <body>
-        <h1 style="font-family: 'Roboto Condensed'; font-weight: 700;">DARPA Spectrum Challenge - Final Tournament</h1>
-
-        <table id="results" border="0" style="width:100%;">
+        <table id="results" border="0" style="width:1200px;margin-left: auto;margin-right: auto;">
             <tr><td colspan="2">
-                <span style="font-family: 'Roboto Condensed'; font-weight: 300;">Last updated: 
-                    <span id="timestamp">please wait...</span>
-                </span>
+                    <h1>DARPA Spectrum Challenge - Final Tournament</h1>
+            </td></tr>
+            <tr><td colspan="2">
+                <span class="misc">Last updated:<span id="timestamp">please wait...</span></span>
             </td></tr>
             <tr>
                 <td style="width:820px">
-                    <h2 style="font-family: 'Roboto Condensed'; font-weight: 400;">Competitive</h1>
+                    <h2>Competitive</h2>
                     <object id="comp-object" type="image/svg+xml" width="800" height="600" data="comp.svg"><span/></object>
                 </td>
                 <td rowspan="2" data-twttr-id="twttr-sandbox-0" style="vertical-align: top">
@@ -29,7 +31,7 @@
             </tr>
             <tr>
                 <td>
-                    <h2 style="font-family: 'Roboto Condensed'; font-weight: 400;">Cooperative</h1>
+                    <h2>Cooperative</h2>
                     <object id="coop-object" type="image/svg+xml" width="800" height="600" data="coop.svg"><span/></object>
                 </td>
             </tr>
@@ -64,14 +66,8 @@
             }
 
             function sanitizeScore(score) {
-                if (typeof(score) === 'object') {
-                    var keys = Object.keys(score);
-                    if (keys.length != 1) {
-                        return null;
-                    }
-                    else {
-                        return score[keys[0]];
-                    }
+                if (typeof score === 'object' && score !== null) {
+                    return score[Object.keys(score)[0]];
                 }
                 return score;
             }
@@ -79,26 +75,26 @@
             function updateResults(r) {
                 $.each(r.comp, function (group, matches) {
                     var teams = {};
+                    var nValidMatches = 0;
                     $.each(matches, function (matchidx, match) {
+                        var nValidGames = 0;
                         $.each(match, function (team, scores) {
-                            if (scores.length !== 2) {
-                                console.warn("Competitive number of scores problem in " + group + 
-                                    " at match #" + matchidx + " for team " + team);
+                            var nValidScores = 0;
+                            if (!teams.hasOwnProperty(team)) {
+                                teams[team] = null;
                             }
                             $.each(scores, function (scoreidx, score) {
                                 score = sanitizeScore(score);
-                                if (score === null) {
-                                    console.warn("Competitive score format problem in " + group + 
-                                        " at match #" + matchidx + " for team " + team);
-                                }
-                                if (teams.hasOwnProperty(team)) {
+                                if ($.isNumeric(score)) {
+                                    nValidScores += 1;
                                     teams[team] += score;
                                 }
-                                else {
-                                    teams[team] = score;
-                                }
                             });
+                            nValidGames = Math.max(nValidGames, nValidScores);
                         });
+                        if (nValidGames > 0) {
+                            nValidMatches += nValidGames / 2;
+                        }
                     });
 
                     var teamArray = $.map(teams, function (value, key) {
@@ -113,24 +109,28 @@
                             console.warn("Competitive team overflow in " + group);
                         }
                         teamElement.text(teamArray[i].team);
-                        comp.find('#' + group + '_score' + i).text(teamArray[i].score);
+                        if ($.isNumeric(teamArray[i].score)) {
+                            comp.find('#' + group + '_score' + i).text(teamArray[i].score);
+                        }
                     }
                     
                     var progress = comp.find('#' + group + '_progress');
-                    var newProgress = progress.text().replace(/(\d+)\s*\/\s*(\d+)/, matches.length + " / $2");
+                    var newProgress = progress.text().replace(/([\d\.]+)\s*\/\s*(\d+)/, nValidMatches + " / $2");
                     progress.text(newProgress)
                 });
+
 
                 // TODO: too much copy&paste here
                 $.each(r.coop, function (group, matches) {
                     var teams = {};
+                    var nValidMatches = 0;
                     $.each(matches, function (matchidx, match) {
+                        var nValidScores = 0;
                         $.each(match, function (team, score) {
-                            score = sanitizeScore(score);
-                            if (score === null) {
-                                console.warn("Cooperative score format problem in " + group + 
-                                    " at match #" + matchidx + " for team " + team);
+                            if (!teams.hasOwnProperty(team)) {
+                                teams[team] = null;
                             }
+                            score = sanitizeScore(score);
                             var maxOther = 0;
                             $.each(match, function (otherTeam, otherScore) {
                                 if (otherTeam !== team) {
@@ -140,13 +140,12 @@
                                     //maxOther += sanitizeScore(otherScore);
                                 }
                             });
-                            if (teams.hasOwnProperty(team)) {
+                            if ($.isNumeric(score)) {
+                                nValidScores = 1;
                                 teams[team] += score + maxOther;
                             }
-                            else {
-                                teams[team] = score + maxOther;
-                            }
                         });
+                        nValidMatches += nValidScores;
                     });
 
                     var teamArray = $.map(teams, function (value, key) {
@@ -161,11 +160,13 @@
                             console.warn("Cooperative team overflow in " + group);
                         }
                         teamElement.text(teamArray[i].team);
-                        coop.find('#' + group + '_score' + i).text(teamArray[i].score);
+                        if ($.isNumeric(teamArray[i].score)) {
+                            coop.find('#' + group + '_score' + i).text(teamArray[i].score);
+                        }
                     }
-
+                    
                     var progress = coop.find('#' + group + '_progress');
-                    var newProgress = progress.text().replace(/(\d+)\s*\/\s*(\d+)/, matches.length + " / $2");
+                    var newProgress = progress.text().replace(/([\d\.]+)\s*\/\s*(\d+)/, nValidMatches + " / $2");
                     progress.text(newProgress)
                 });
             }
